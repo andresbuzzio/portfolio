@@ -811,6 +811,7 @@ text-decoration: none;
 /* Styling Portfolio */
 
 .square {
+visibility: hidden;
 float: right;
 width: 200px;
 height: 200px;
@@ -823,6 +824,7 @@ padding-top: 80px;
 }
 
 .square2 {
+visibility: hidden;
 float: left;
 width: 200px;
 height: 200px;
