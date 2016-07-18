@@ -73,6 +73,10 @@ p {
   text-transform: none;
 }
 
+.centered {
+text-align: center;
+}
+
 a {
 text-decoration: none;
 }
