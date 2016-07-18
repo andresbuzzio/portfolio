@@ -90,7 +90,7 @@
 
 
 <div class="col-md-6">
-<div class="square">Travel Site</div>
+<a href="http://asatours.co.uk" target="_blank"><div class="square">Travel Site</div></a>
 </div>
 
 <script>
@@ -102,19 +102,32 @@
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 
-    if(height  > 600) {
+    if(height  > 500) {
         $('.square').addClass('magictime slideLeftRetourn');
     }
 });
 </script>
 
-      <div class="col-md-6">
-        <a class="w-inline-block link-portfolio" href="http://ifthisfits.com" target="_blank">
-          <img class="image-portfolio" src="images/screen4.png" alt="PSD TO WORDPRESS">
-        </a>
-        <div class="title-portfolio-column-2">Fashion</div>
-      </div>
-    </div>
+<div class="col-md-6">
+<a href="http://ifthisfits.com" target="_blank"><div class="square2">Fashion Site</div></a>
+</div>
+
+<script>
+/* $( document ).ready(function() {
+  $('.square').addClass('magictime puffIn');
+}); */
+
+
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  > 500) {
+        $('.square2').addClass('magictime slideRightRetourn');
+    }
+});
+</script>
+
+
 
     <div class="w-row row-portfolio">
       <div class="col-md-6">
