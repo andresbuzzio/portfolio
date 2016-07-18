@@ -94,8 +94,17 @@
 </div>
 
 <script>
-$( document ).ready(function() {
+/* $( document ).ready(function() {
   $('.square').addClass('magictime puffIn');
+}); */
+
+
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+
+    if(height  > 500) {
+        $('.square').addClass('magictime puffIn');
+    }
 });
 </script>
 
