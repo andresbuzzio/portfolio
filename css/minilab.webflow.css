@@ -2,7 +2,7 @@
 
 
 body {
-  margin-bottom: 0px;
+  margin: 0;
   font-family: 'Raleway', sans-serif;
   color: #333;
   font-size: 12px;
@@ -72,6 +72,11 @@ p {
   letter-spacing: 1px;
   text-transform: none;
 }
+
+a {
+text-decoration: none;
+}
+
 .button {
   display: block;
   width: 20%;
@@ -102,8 +107,7 @@ p {
   top: 0px;
   right: 0px;
   z-index: 1;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding:48px 0;
   background-color: #383838;
 }
 .section.grey {
