@@ -116,6 +116,12 @@ text-decoration: none;
   padding:48px 0;
   background-color: #f2f2f2;
 }
+.section.grey-dark {
+  width: 100%;
+  height: auto;
+  padding:48px 0;
+  background-color: #222;
+}
 .nav-link {
   margin-right: 5px;
   margin-left: 5px;
