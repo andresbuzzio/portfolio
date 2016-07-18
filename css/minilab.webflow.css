@@ -178,8 +178,8 @@ text-decoration: none;
   text-align: right;
 }
 .hero-bg {
-  width: auto;
-  height: 500px;
+  width: 100%;
+  height: auto;
   padding-top: 33px;
   padding-bottom: 33px;
   background-image: url('../images/Background01.png');
@@ -813,7 +813,10 @@ text-decoration: none;
 .square {
 width:200px;
 height:200px;
-background: #222; 
+background: #02AAB0;
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-size:48px;
 }
 
 /* Styling Bootstrap */
