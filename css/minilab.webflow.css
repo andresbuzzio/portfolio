@@ -113,6 +113,7 @@ text-decoration: none;
 .section-grey {
   width: 100%;
   height: auto;
+  overflow: hidden;
   padding:48px 0;
   background-color: #f2f2f2;
 }
@@ -120,6 +121,7 @@ text-decoration: none;
   width: 100%;
   height: auto;
   padding:48px 0;
+  overflow: hidden;
   background-color: #222;
 }
 .nav-link {
