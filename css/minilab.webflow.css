@@ -866,6 +866,10 @@ padding-top: 80px;
 border-radius: 50%;
 }
 
+.space-top-bottom {
+margin:10px 0;
+}
+
 /* Styling Bootstrap */
 
 .navbar-default {
