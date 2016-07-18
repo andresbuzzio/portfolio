@@ -808,6 +808,14 @@ text-decoration: none;
   }
 }
 
+/* Styling Portfolio */
+
+.square {
+width:200px;
+height:200px;
+background: #222; 
+}
+
 /* Styling Bootstrap */
 
 .navbar-default {
