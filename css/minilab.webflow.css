@@ -257,6 +257,7 @@ text-decoration: none;
   color: #b8b8b8;
   font-size: 14px;
   text-transform: uppercase;
+  text-align: center;
 }
 .content-bg {
   height: 420px;
@@ -501,6 +502,8 @@ text-decoration: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  border-radius:50%;
+  width:120px;
 }
 .section-brands {
   height: 105px;
