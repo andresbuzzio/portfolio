@@ -94,15 +94,11 @@
 </div>
 
 <script>
-/* $( document ).ready(function() {
-  $('.square').addClass('magictime puffIn');
-}); */
-
-
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 
     if(height  > 500) {
+        $('.square').css("visibility","visible");
         $('.square').addClass('magictime slideLeftRetourn');
     }
 });
@@ -113,15 +109,11 @@ $(window).scroll(function() {
 </div>
 
 <script>
-/* $( document ).ready(function() {
-  $('.square').addClass('magictime puffIn');
-}); */
-
-
 $(window).scroll(function() {
     var height = $(window).scrollTop();
 
     if(height  > 500) {
+        $('.square').css("visibility","visible");
         $('.square2').addClass('magictime slideRightRetourn');
     }
 });
