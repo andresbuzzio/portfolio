@@ -77,6 +77,11 @@ p {
 text-align: center;
 }
 
+.centered-bold {
+font-weight: 700;
+text-align: center;
+}
+
 a {
 text-decoration: none;
 }
