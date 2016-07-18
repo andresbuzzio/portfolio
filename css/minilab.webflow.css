@@ -811,12 +811,27 @@ text-decoration: none;
 /* Styling Portfolio */
 
 .square {
-width:200px;
-height:200px;
+float: right;
+width: 200px;
+height: 200px;
 background: #02AAB0;
 color: #fff;
 font-family: 'Raleway', sans-serif;
-font-size:48px;
+font-size: 24px;
+text-align: center;
+padding-top: 80px;
+}
+
+.square2 {
+float: right;
+width: 200px;
+height: 200px;
+background: yellow;
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-size: 24px;
+text-align: center;
+padding-top: 80px;
 }
 
 /* Styling Bootstrap */
