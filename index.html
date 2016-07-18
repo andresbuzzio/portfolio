@@ -94,10 +94,8 @@
 </div>
 
 <script>
-$(function() {
-    $(".square").animate(
-        {left : "+=100"}, 500, function() {}
-    );
+$('.square').read(function () {
+  $(this).addClass('magictime swashIn');
 });
 </script>
 
@@ -173,6 +171,8 @@ $(function() {
       <div class="col-md-4">
       </div>
     </div>
+
+
 
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
