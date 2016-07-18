@@ -94,8 +94,10 @@
 </div>
 
 <script>
-$('.square').load(function () {
-  $(this).addClass('magictime puffIn');
+$(function() {
+    $(".square").animate(
+        {left : "+=100"}, 500, function() {}
+    );
 });
 </script>
 
