@@ -1,6 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+
 body {
   margin-bottom: 0px;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #333;
   font-size: 12px;
   line-height: 20px;
@@ -10,7 +13,7 @@ h1 {
   margin: 251px 0px 11px;
   padding: 9px 13px;
   background-color: rgba(0, 0, 0, 0.49);
-  font-family:'Helvetica Neue';
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 38px;
   line-height: 44px;
@@ -60,7 +63,7 @@ h6 {
 }
 p {
   margin-bottom: 15px;
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-style: italic;
@@ -114,7 +117,7 @@ p {
   -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -138,7 +141,7 @@ p {
   background-color: #0076d6;
 }
 .company-title {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 24px;
   font-weight: 700;
@@ -164,7 +167,7 @@ p {
   -ms-transform: none;
   -o-transform: none;
   transform: none;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: rgba(0, 0, 0, 0.56);
   font-size: 16px;
   font-weight: 700;
@@ -246,7 +249,7 @@ p {
   text-align: right;
 }
 .footer-text {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #b8b8b8;
   font-size: 14px;
   text-transform: uppercase;
@@ -275,7 +278,7 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding: 20px 10px;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 36px;
   line-height: 36px;
@@ -291,7 +294,7 @@ p {
 .subtext-top {
   margin-top: 16px;
   padding-top: 0px;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 17px;
   text-align: center;
@@ -310,7 +313,7 @@ p {
   margin-left: auto;
   padding: 12px;
   background-color: #2c3e50;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 20px;
   text-align: center;
@@ -353,7 +356,7 @@ p {
   background-size: auto, 125px;
 }
 .brand {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 24px;
   font-weight: 700;
@@ -362,7 +365,7 @@ p {
   text-transform: uppercase;
 }
 .about-paragraph {
-  font-family:'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #323a45;
   font-size: 18px;
   font-style: normal;
@@ -398,7 +401,7 @@ p {
   margin-left: auto;
 }
 .why {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #2c3e50;
   font-size: 24px;
   font-weight: 500;
@@ -421,7 +424,7 @@ p {
 .title-portfolio {
   margin-top: 24px;
   direction: ltr;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #2c3e50;
   font-size: 18px;
   font-weight: 700;
@@ -468,7 +471,7 @@ p {
 }
 .title-portfolio-column-2 {
   margin-top: 24px;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #2c3e50;
   font-size: 18px;
   font-weight: 700;
@@ -539,7 +542,7 @@ p {
   background-color: whitesmoke;
 }
 .title-portfolio-row-3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #2c3e50;
   font-weight: 700;
   text-align: center;
