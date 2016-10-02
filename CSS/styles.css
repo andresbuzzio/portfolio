@@ -227,6 +227,6 @@ padding-right: 0;
 
 }
 
-i.font-material {
+i.font-material, .material-icons {
 font-size: 6em !important;
 }
