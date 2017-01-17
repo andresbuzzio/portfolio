@@ -1,5 +1,10 @@
+@font-face {
+font-family:myFont;
+src: url(../font/CircularStd-Bold.otf);
+}
+
 body {
-font-family: 'Raleway', sans-serif;
+font-family:myFont;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -37,7 +42,7 @@ top:-8px;
 #section-one{
 width: 100%;
 height: auto;
-padding: 8em 0;
+padding: 8em 0 0 0;
 overflow: hidden;
 background: #281EBE;
 }
@@ -63,14 +68,14 @@ background: #281EBE;
 
 .company {
 color: #fff;
-font-family: 'Raleway', sans-serif;
+font-family:myFont;
 font-size: 1.5em;
 text-align: center;
 }
 
 .location {
 color: #fff;
-font-family: 'Raleway', sans-serif;
+font-family:myFont;
 font-size: .75em;
 text-align: center;
 }
@@ -147,7 +152,7 @@ font-size: 1em;
 }
 
 .footer-text {
-  font-family: 'Raleway', sans-serif;
+  font-family:myFont;
   color: #b8b8b8;
   font-size: 14px;
   text-transform: uppercase;
