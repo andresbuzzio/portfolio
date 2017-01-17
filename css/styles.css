@@ -230,6 +230,12 @@ background: #74F7DC;
 border-radius: 50%;
 }
 
+i.material-icons.envelop {
+color:#281EBE;
+font-size:30px !important;
+transform: rotate(-45deg);
+}
+
 /* MOBILE */
 
 @media (max-width:768px) {
