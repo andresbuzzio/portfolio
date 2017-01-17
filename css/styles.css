@@ -86,14 +86,14 @@ margin:5%;
 width: 90%;
 color: #fff;
 padding: 5em 0;
-border: 4px solid #fff;
+border: 2px solid #fff;
 }
 
 .square2 {
 margin:5%;
 width: 90%;
 padding: 5em 0;
-border: 4px solid #fff;
+border: 2px solid #fff;
 }
 
 .square3 {
@@ -101,19 +101,20 @@ margin:5%;
 width: 90%;
 color: #fff;
 padding: 5em 0;
-border: 4px solid #fff;
+border: 2px solid #fff;
 }
 
 .square4 {
 margin:5%;
 width: 90%;
 padding: 5em 0;
-border: 4px solid #fff;
+border: 2px solid #fff;
 }
 
 .square:hover, .square2:hover,
 .square3:hover, .square4:hover {
 background:rgba(255,255,255,0.2);
+transition: 1s;
 }
 
 .section-grey {
