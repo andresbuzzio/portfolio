@@ -49,7 +49,7 @@ width: 100%;
 height: auto;
 /* padding: 4em 0 0 0; */
 overflow: hidden;
-background: #181643;                
+background: #181643;
 }
 
 .the-icon {
@@ -126,7 +126,7 @@ transition: 1s;
   height: auto;
   overflow: hidden;
   padding:3em 0;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
 }
 
 .center-testimonials {
@@ -141,12 +141,14 @@ p.centered {
 margin-top:24px;
 text-align: center;
 font-size: 1em;
+color:#fff;
 }
 
 p.centered-bold {
 font-weight: 700;
 text-align: center;
 font-size: 1em;
+color:#74F7DC;
 }
 
 .section-grey-dark {
