@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="960px" viewBox="0 0 1500 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>box4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="box4">
+            <rect id="Rectangle-2-Copy-6" fill="#FF7F00" x="0" y="0" width="1500" height="960"></rect>
+            <rect id="Rectangle" fill="#000000" transform="translate(756.466225, 660.767380) rotate(-15.000000) translate(-756.466225, -660.767380) " x="-201.944371" y="548.26738" width="1916.82119" height="225"></rect>
+            <text id="#HANDSOFF" transform="translate(750.000000, 652.500000) rotate(-15.000000) translate(-750.000000, -652.500000) " font-family="CircularStd-Bold, Circular Std" font-size="100" font-weight="bold" letter-spacing="-1.66666675" fill="#FFFFFF">
+                <tspan x="445.8" y="689">#HANDSOFF</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="960px" viewBox="0 0 1500 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>box8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="underground" fill="#00E9D9">
+            <rect id="Rectangle-2-Copy-6" x="0.191045195" y="0" width="1500" height="960"></rect>
+        </g>
+        <g id="box8">
+            <polygon id="Polygon" stroke="#000000" stroke-width="25" stroke-linecap="round" stroke-linejoin="bevel" points="750.308955 388.545904 924.217726 488.95218 924.217726 689.764732 750.308955 790.171008 576.400183 689.764732 576.400183 488.95218"></polygon>
+            <path d="M750.181572,692.053314 C788.906005,692.053314 819.732691,668.360076 819.732691,624.030791 L819.732691,507.347961 L784.574982,507.347961 L784.574982,621.483131 C784.574982,645.176369 771.581916,657.659904 750.181572,657.659904 C729.290759,657.659904 716.042927,645.176369 716.042927,621.483131 L716.042927,507.347961 L680.885219,507.347961 L680.885219,624.030791 C680.885219,668.360076 711.711905,692.053314 750.181572,692.053314 Z" id="U" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

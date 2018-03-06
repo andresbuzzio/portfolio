@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="960px" viewBox="0 0 1500 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>box6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="box6">
+            <rect id="Rectangle-2-Copy-6" fill="#4E00BE" x="0" y="0" width="1500" height="960"></rect>
+            <g id="cloud" transform="translate(518.000000, 501.000000)">
+                <g id="Page-1">
+                    <g id="cloud">
+                        <path d="M83.4813744,275.603269 L373.74442,274.900461 C373.74442,274.900461 461.410138,273.730061 460.650654,178.241836 C459.148687,97.3623596 397.672917,71.5653773 345.098423,78.6586264 C344.99357,79.9707217 312.715461,-1.84394117 223.869895,0.868100266 C135.024329,3.5801415 98.4018522,63.7579857 88.8147722,104.767338 C88.1488058,107.048626 2.10029815,104.438605 0.689016341,189.812645 C-0.722265272,275.186684 83.4813744,275.603269 83.4813744,275.603269 Z" id="Path" stroke="#FFFFFF" stroke-width="20"></path>
+                        <g id="Group" transform="translate(135.343067, 153.809448)" fill="#FFFFFF">
+                            <ellipse id="Oval" cx="14.7090883" cy="14.5987584" rx="13.7963808" ry="13.7963808"></ellipse>
+                            <ellipse id="Oval-Copy" cx="95.3204488" cy="14.5987584" rx="13.7963808" ry="13.7963808"></ellipse>
+                            <ellipse id="Oval-Copy-2" cx="175.931809" cy="14.5987584" rx="13.7963808" ry="13.7963808"></ellipse>
+                            <rect id="Rectangle" x="18.8132465" y="9.5987584" width="159.285487" height="10"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
