@@ -98,39 +98,99 @@ text-align: center;
 }
 
 .square {
-margin:5%;
-width: 90%;
+width: 100%;
 color: #fff;
-padding: 5em 0;
-border: 2px solid #fff;
+padding: 20px 2em 10em 2em;
 }
 
 .square2 {
-margin:5%;
-width: 90%;
-padding: 5em 0;
-border: 2px solid #fff;
+width: 100%;
+padding: 20px 2em 10em 2em;
 }
 
 .square3 {
-margin:5%;
-width: 90%;
+width: 100%;
 color: #fff;
-padding: 5em 0;
-border: 2px solid #fff;
+padding: 20px 2em 10em 2em;
 }
 
 .square4 {
-margin:5%;
-width: 90%;
-padding: 5em 0;
-border: 2px solid #fff;
+width: 100%;
+padding: 20px 2em 10em 2em;
 }
 
 .square:hover, .square2:hover,
 .square3:hover, .square4:hover {
-background:rgba(255,255,255,0.2);
+opacity: .8;
 transition: 1s;
+}
+
+.box1 {
+background-image: url(../images/box1.svg);
+background-size: contain;
+background-position: center;
+background-color:#FF2D55;
+}
+
+.box2 {
+background-image: url(../images/box2.svg);
+background-size: contain;
+background-position: center;
+}
+
+.box3 {
+background-image: url(../images/box3.svg);
+background-size: contain;
+background-position: center;
+}
+
+.box4 {
+background-image: url(../images/box4.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.box5 {
+background-image: url(../images/box5.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.box6 {
+background-image: url(../images/box6.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.box7 {
+background-image: url(../images/box7.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.box8 {
+background-image: url(../images/box8.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.box9 {
+background-image: url(../images/box9.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.box10 {
+background-image: url(../images/box10.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .section-grey {
@@ -315,4 +375,12 @@ font-size: 6em !important;
 
 .lb-outerContainer {
 zoom:70% !important;
+}
+
+.box1 {
+background-color:transparent!important;
+}
+
+.box1, .box2, .box3 {
+background-repeat: no-repeat;
 }
