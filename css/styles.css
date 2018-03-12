@@ -125,6 +125,13 @@ opacity: .8;
 transition: 1s;
 }
 
+.box01 {
+background-image: url(../images/box01.svg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
 .box1 {
 background-image: url(../images/box1.svg);
 background-size: contain;
