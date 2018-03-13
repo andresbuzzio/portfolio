@@ -77,8 +77,9 @@ background: #111622;
 }
 
 img.lb-image {
-width: 768px !important;
-height: 1500px !important;
+width: auto !important;
+height:auto !important;
+zoom:100%;
 }
 
 /* Styling Portfolio */
@@ -381,7 +382,7 @@ font-size: 6em !important;
 }
 
 .lb-outerContainer {
-zoom:70% !important;
+border: none;
 }
 
 .box1 {
