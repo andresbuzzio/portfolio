@@ -1,16 +1,21 @@
+/* Fonts */
+
 @font-face {
 font-family:myFont;
-src: url(../font/CircularStd-Bold.otf);
+src: url(../font/Brandon_light.otf);
 }
 
 @font-face {
-font-family:Circular-Book;
-src: url(../font/CircularStd-Book.otf);
+font-family:myFontBold;
+src: url(../font/brandon_bld.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 
 body {
 font-family:myFont;
-background: #111622;
+background: #121212;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -19,21 +24,131 @@ color:#fff;
 }
 
 p {
-font-family:Circular-Book;
 font-size: 1rem;
+font-family: 'Roboto Mono', monospace;
+}
+
+p.content {
+text-align: center;
+font-family:myFont;
+text-transform: uppercase;
+font-size: 1.15rem;
+letter-spacing: .5rem;
+line-height: .5rem;
+color: #fff;
+}
+
+p.triangle {
+float: left;
+font-family:myFont;
+text-transform: uppercase;
+font-size: 2.5rem;
+line-height: 5rem;
+color: #fff;
+}
+
+p.project {
+padding: 1rem;
+float: left;
+color: #fff;
+font-size: 2rem;
+font-family: 'Roboto Mono', monospace;
+}
+
+.full-container {
+float: left;
+width: 20em;
+}
+
+.the-icon-project {
+width: 20em;
+height: 20em;
+}
+
+.the-icon1 {
+background-image:url(../images/box1.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.the-icon2 {
+background-image:url(../images/box2.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.the-icon3 {
+background-image:url(../images/box3.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+button.the-link {
+text-align: center;
+font-family:myFontBold;
+font-size: .75em;
+float: left;
+border:none;
+border: 2px solid #FF6F61;
+background:transparent;
+margin-top: 1em;
+border-radius: .2em;
+padding: .5em .75em;
+color:#FF6F61;
+letter-spacing: .2em;
+text-transform: uppercase;
+}
+
+button.the-link:hover {
+transition: 1s;
+border: 2px solid #FF6F61;
+background: #FF6F61;
+color:#121212;
+}
+
+span.bold {
+font-family:myFontBold;
+}
+
+span.title {
+font-family:myFontBold;
+text-align: left;
+color:#fff;
+font-size: 2rem;
+letter-spacing: .8rem;
+}
+
+span.subtitle {
+margin-left: .75rem;
+font-family:myFont;
+text-align: left;
+color:#fff;
+font-size: 2rem;
+letter-spacing: .8rem;
 }
 
 h1 {
+font-family:myFontBold;
 text-align: center;
 color:#fff;
-font-size: 4rem;
+font-size: 2.25rem;
+letter-spacing: .8rem;
+line-height: 10px;
 }
 
 h2 {
-font-family:Circular-Book;
+font-family:myFont;
 text-align: center;
 color:#fff;
-font-size: 2rem;
+font-size: 1.5rem;
+letter-spacing: .6rem;
+line-height: 1px;
 }
 
 .space-bottom {
@@ -41,7 +156,7 @@ margin-bottom: 3.5em;
 }
 
 i.fa.fa-envelope-o {
-color:#111622 !important;
+color:#212121 !important;
 }
 
 li.email-me {
@@ -51,12 +166,17 @@ top:-8px;
 
 /* CONTENT */
 
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+}
+
 #section-one{
 width: 100%;
 height: auto;
 /* padding: 4em 0 0 0; */
 overflow: hidden;
-background: #111622;
+background: #121212;
 }
 
 .the-icon {
@@ -65,7 +185,7 @@ text-align: center;
 }
 
 i.font-material, .material-icons {
-color:#8F8FFE;
+color:#FF6F61;
 }
 
 #portfolio{
@@ -73,7 +193,7 @@ width: 100%;
 height: auto;
 padding: 3em 0;
 overflow: hidden;
-background: #111622;
+background: #121212;
 }
 
 img.lb-image {
@@ -235,7 +355,7 @@ p.centered-bold {
 font-weight: 700;
 text-align: center;
 font-size: 1em;
-color:#8F8FFE;
+color:#FF6F61;
 }
 
 .section-grey-dark {
@@ -243,7 +363,7 @@ color:#8F8FFE;
   height: auto;
   padding:48px 0;
   overflow: hidden;
-  background: #111622;
+  background: #121212;
 }
 
 .footer-text {
@@ -265,6 +385,10 @@ margin:1em 0;
 text-align: center;
 }
 
+.wrapped {
+display: inline-block;
+}
+
 .quarter {
 float: left;
 width: 25%;
@@ -277,7 +401,7 @@ margin-left: 2.5%;
 }
 
 .navbar-default {
-background: #111622;
+background: #121212;
 padding-top: 2em;
 border:0;
 border-radius: 0;
@@ -285,6 +409,11 @@ border-radius: 0;
 
 .navbar {
 margin-bottom: 0;
+margin-left: -15px !important;
+}
+
+.navbar-brand {
+
 }
 
 .navbar-header {
@@ -294,7 +423,7 @@ margin-bottom: 1em;
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:visited,
 .navbar-default .navbar-brand:active {
-color:#8F8FFE;
+color:#FF6F61;
 font-family:myFont;
 font-size: 3rem;
 }
@@ -310,7 +439,7 @@ background: transparent !important;
 }
 
 .navbar-default .navbar-nav>li>a {
-border-bottom: 3px solid #8F8FFE;
+border-bottom: 3px solid #FF6F61;
 font-size: 16px;
 color:#fff;
 }
@@ -327,9 +456,9 @@ width: 60px;
 height: 60px;
 padding: 10px;
 padding-left: 12px;
-background: #111622;
+background: #121212;
 border-radius: 50%;
-border:4px solid #8F8FFE;
+border:4px solid #FF6F61;
 z-index:999;
 }
 
@@ -338,7 +467,7 @@ z-index:999;
 }
 
 i.material-icons.envelop {
-color:#8F8FFE;
+color:#FF6F61;
 font-size:30px !important;
 transform: rotate(-45deg);
 transition: 1s;
@@ -352,6 +481,11 @@ transition: 1s;
 /* MOBILE */
 
 @media (max-width:960px) {
+
+  .navbar {
+  margin-bottom: 0;
+  margin-left:0 !important;
+  }
 
   button.export-button {
   margin:0 20%;
