@@ -55,14 +55,34 @@ font-size: 2rem;
 font-family: 'Roboto Mono', monospace;
 }
 
+.video-container {
+margin-top: 8em;
+width: 100%;
+text-align: center;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 36.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
 .full-container {
 float: left;
 width: 20em;
-}
-
-.video-container {
-width: 100%;
-margin-top: 6em;
 }
 
 .portfolio-box {
@@ -533,6 +553,19 @@ transition: 1s;
   margin-left:0;
   }
 
+
+}
+
+@media (max-width:480px) {
+
+  .embed-container {
+    padding-bottom: 56.25%;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+  }
 
 }
 
