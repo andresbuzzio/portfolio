@@ -60,6 +60,11 @@ float: left;
 width: 20em;
 }
 
+.video-container {
+width: 100%;
+margin-top: 6em;
+}
+
 .portfolio-box {
 background: #00FFF8;
 }
@@ -192,7 +197,7 @@ background: #02002B;
 }
 
 .the-icon {
-margin:0 auto;
+margin:3em auto;
 text-align: center;
 }
 
