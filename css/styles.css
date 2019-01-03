@@ -32,9 +32,9 @@ p.content {
 text-align: center;
 font-family:myFont;
 text-transform: uppercase;
-font-size: 1.15rem;
+font-size: 1.3rem;
 letter-spacing: .5rem;
-line-height: .5rem;
+line-height: 1rem;
 color: #fff;
 }
 
@@ -66,7 +66,7 @@ background: #00FFF8;
 
 .the-icon-project {
 width: 20em;
-height: 20em;
+height: 15em;
 }
 
 .the-icon1 {
@@ -87,6 +87,14 @@ background-repeat: no-repeat;
 
 .the-icon3 {
 background-image:url(../images/box3.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.the-icon4 {
+background-image:url(../images/box4.svg);
 background-size: cover;
 background-size: 90%;
 background-position: center;
