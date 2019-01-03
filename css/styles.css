@@ -15,7 +15,7 @@ src: url(../font/brandon_bld.ttf);
 
 body {
 font-family:myFont;
-background: #121212;
+background: #02002B;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -60,6 +60,10 @@ float: left;
 width: 20em;
 }
 
+.portfolio-box {
+background: #00FFF8;
+}
+
 .the-icon-project {
 width: 20em;
 height: 20em;
@@ -95,21 +99,21 @@ font-family:myFontBold;
 font-size: .75em;
 float: left;
 border:none;
-border: 2px solid #FF6F61;
+border: 2px solid #00FFF8;
 background:transparent;
 margin-top: 1em;
 border-radius: .2em;
 padding: .5em .75em;
-color:#FF6F61;
+color:#00FFF8;
 letter-spacing: .2em;
 text-transform: uppercase;
 }
 
 button.the-link:hover {
 transition: 1s;
-border: 2px solid #FF6F61;
-background: #FF6F61;
-color:#121212;
+border: 2px solid #00FFF8;
+background: #00FFF8;
+color:#02002B;
 }
 
 span.bold {
@@ -176,7 +180,7 @@ width: 100%;
 height: auto;
 /* padding: 4em 0 0 0; */
 overflow: hidden;
-background: #121212;
+background: #02002B;
 }
 
 .the-icon {
@@ -185,7 +189,7 @@ text-align: center;
 }
 
 i.font-material, .material-icons {
-color:#FF6F61;
+color:#00FFF8;
 }
 
 #portfolio{
@@ -193,7 +197,7 @@ width: 100%;
 height: auto;
 padding: 3em 0;
 overflow: hidden;
-background: #121212;
+background: #02002B;
 }
 
 img.lb-image {
@@ -355,7 +359,7 @@ p.centered-bold {
 font-weight: 700;
 text-align: center;
 font-size: 1em;
-color:#FF6F61;
+color:#00FFF8;
 }
 
 .section-grey-dark {
@@ -363,13 +367,14 @@ color:#FF6F61;
   height: auto;
   padding:48px 0;
   overflow: hidden;
-  background: #121212;
+  background: #02002B;
 }
 
 .footer-text {
   font-family:myFont;
-  color: #b8b8b8;
-  font-size: 14px;
+  color: #fff;
+  font-size: .75em;
+  letter-spacing: 4px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -401,7 +406,7 @@ margin-left: 2.5%;
 }
 
 .navbar-default {
-background: #121212;
+background: #02002B;
 padding-top: 2em;
 border:0;
 border-radius: 0;
@@ -423,7 +428,7 @@ margin-bottom: 1em;
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:visited,
 .navbar-default .navbar-brand:active {
-color:#FF6F61;
+color:#00FFF8;
 font-family:myFont;
 font-size: 3rem;
 }
@@ -439,7 +444,7 @@ background: transparent !important;
 }
 
 .navbar-default .navbar-nav>li>a {
-border-bottom: 3px solid #FF6F61;
+border-bottom: 3px solid #00FFF8;
 font-size: 16px;
 color:#fff;
 }
@@ -456,9 +461,9 @@ width: 60px;
 height: 60px;
 padding: 10px;
 padding-left: 12px;
-background: #121212;
+background: #02002B;
 border-radius: 50%;
-border:4px solid #FF6F61;
+border:4px solid #00FFF8;
 z-index:999;
 }
 
@@ -467,7 +472,7 @@ z-index:999;
 }
 
 i.material-icons.envelop {
-color:#FF6F61;
+color:#00FFF8;
 font-size:30px !important;
 transform: rotate(-45deg);
 transition: 1s;
