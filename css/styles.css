@@ -126,6 +126,22 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+.the-icon5 {
+background-image:url(../images/box5.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.the-icon6 {
+background-image:url(../images/box6.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
 button.the-link {
 text-align: center;
 font-family:myFontBold;
@@ -383,15 +399,15 @@ background-repeat: no-repeat;
 
 p.centered {
 margin-top:24px;
-text-align: center;
+text-align: left;
 font-size: 1em;
 color:#fff;
 }
 
 p.centered-bold {
 font-weight: 700;
-text-align: center;
-font-size: 1em;
+text-align: left;
+font-size: 1.2em;
 color:#00FFF8;
 }
 
