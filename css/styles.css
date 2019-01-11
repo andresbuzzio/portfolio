@@ -28,6 +28,11 @@ font-size: 1rem;
 font-family: 'Roboto Mono', monospace;
 }
 
+::selection {
+    color: #02002B;
+    background: #2AFFD6;
+}
+
 p.content {
 text-align: center;
 font-family:myFont;
@@ -86,7 +91,7 @@ width: 20em;
 }
 
 .portfolio-box {
-background: #00FFF8;
+background: #2AFFD6;
 }
 
 .the-icon-project {
@@ -156,20 +161,20 @@ font-family:myFontBold;
 font-size: .75em;
 float: left;
 border:none;
-border: 2px solid #00FFF8;
+border: 2px solid #2AFFD6;
 background:transparent;
 margin-top: 1em;
 border-radius: .2em;
 padding: .5em .75em;
-color:#00FFF8;
+color:#2AFFD6;
 letter-spacing: .2em;
 text-transform: uppercase;
 }
 
 button.the-link:hover {
 transition: 1s;
-border: 2px solid #00FFF8;
-background: #00FFF8;
+border: 2px solid #2AFFD6;
+background: #2AFFD6;
 color:#02002B;
 }
 
@@ -246,7 +251,7 @@ text-align: center;
 }
 
 i.font-material, .material-icons {
-color:#00FFF8;
+color:#2AFFD6;
 }
 
 #portfolio{
@@ -416,7 +421,7 @@ p.centered-bold {
 font-weight: 700;
 text-align: left;
 font-size: 1.2em;
-color:#00FFF8;
+color:#2AFFD6;
 }
 
 .section-grey-dark {
@@ -485,7 +490,7 @@ margin-bottom: 1em;
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:visited,
 .navbar-default .navbar-brand:active {
-color:#00FFF8;
+color:#2AFFD6;
 font-family:myFont;
 font-size: 3rem;
 }
@@ -501,13 +506,17 @@ background: transparent !important;
 }
 
 .navbar-default .navbar-nav>li>a {
-border-bottom: 3px solid #00FFF8;
+border-bottom: 3px solid #2AFFD6;
 font-size: 16px;
 color:#fff;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
 color:#999;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #2AFFD6 !important;
 }
 
 .theContact {
@@ -520,7 +529,7 @@ padding: 10px;
 padding-left: 12px;
 background: #02002B;
 border-radius: 50%;
-border:4px solid #00FFF8;
+border:4px solid #2AFFD6;
 z-index:999;
 }
 
@@ -529,7 +538,7 @@ z-index:999;
 }
 
 i.material-icons.envelop {
-color:#00FFF8;
+color:#2AFFD6;
 font-size:30px !important;
 transform: rotate(-45deg);
 transition: 1s;
