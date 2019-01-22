@@ -155,6 +155,14 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+.the-icon8 {
+background-image:url(../images/box8.svg);
+background-size: cover;
+background-size: 90%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
 button.the-link {
 text-align: center;
 font-family:myFontBold;
