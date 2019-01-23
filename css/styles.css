@@ -597,7 +597,21 @@ transition: 1s;
 
 }
 
+@media (max-width:768px) {
+
+  .flex-container {
+  display: block;
+  flex-wrap: wrap;
+  }
+
+}
+
 @media (max-width:480px) {
+
+  .flex-container {
+  display: block;
+  flex-wrap: wrap;
+  }
 
   .embed-container {
     padding-bottom: 56.25%;
