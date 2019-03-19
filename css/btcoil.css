@@ -3,26 +3,31 @@
 
 @font-face {
   font-family: Helvetica-Neue-Black;
+  font-family: "HelveticaNeue-Black", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
   src: url(http://bitcoinoil.com/ICO/font/helveticaneue-black-webfont.woff);
 }
 
 @font-face {
   font-family: Helvetica-Neue-Bold;
+  font-family: "HelveticaNeue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
   src: url(http://bitcoinoil.com/ICO/font/helveticaneue-bold-webfont.woff);
 }
 
 @font-face {
   font-family: Helvetica-Neue-Medium;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
   src: url(http://bitcoinoil.com/ICO/font/helveticaneue-medium-webfont.woff);
 }
 
 @font-face {
   font-family: Helvetica-Neue-Roman;
+  font-family: "HelveticaNeue-Roman", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
   src: url(http://bitcoinoil.com/ICO/font/helveticaneue-roman-webfont.woff);
 }
 
 @font-face {
   font-family: Helvetica-Neue-Light;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
   src: url(http://bitcoinoil.com/ICO/font/helveticaneue-light-webfont.woff);
 }
 
