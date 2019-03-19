@@ -490,7 +490,7 @@ margin: 0;
 width: 100%;
 overflow: hidden;
 background-color:rgba(76, 83, 89, 1);
-background-image: url(http://bitcoinoil.com/ICO/main-image.png);
+background-image: url(http://bitcoinoil.com/ICO/img/main-image.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position:bottom;
@@ -564,7 +564,7 @@ display: block;
 width: 24px;
 height: 24px;
 cursor: pointer;
-background-image: url(http://bitcoinoil.com/ICO/telegram.png);
+background-image: url(http://bitcoinoil.com/ICO/img/telegram.png);
 background-size: cover;
 }
 
@@ -575,7 +575,7 @@ display: block;
 width: 24px;
 height: 24px;
 cursor: pointer;
-background-image: url(http://bitcoinoil.com/ICO/facebook.png);
+background-image: url(http://bitcoinoil.com/ICO/img/facebook.png);
 background-size: cover;
 }
 
@@ -586,7 +586,7 @@ display: block;
 width: 24px;
 height: 24px;
 cursor: pointer;
-background-image: url(http://bitcoinoil.com/ICO/twitter.png);
+background-image: url(http://bitcoinoil.com/ICO/img/twitter.png);
 background-size: cover;
 }
 
@@ -597,7 +597,7 @@ display: block;
 width: 24px;
 height: 24px;
 cursor: pointer;
-background-image: url(http://bitcoinoil.com/ICO/linkedin.png);
+background-image: url(http://bitcoinoil.com/ICO/img/linkedin.png);
 background-size: cover;
 }
 
@@ -864,7 +864,7 @@ overflow: hidden;
 .photo-ss-small {
 width: 100%;
 height: 200px;
-background-image: url(http://bitcoinoil.com/ICO/main-image.png);
+background-image: url(http://bitcoinoil.com/ICO/img/img/main-image.png);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -1125,7 +1125,7 @@ height: 10em;
 border-radius: 50%;
 margin-right:1em;
 background-color:rgba(105, 115, 123, 1);
-background-image: url(http://bitcoinoil.com/ICO/img/ico1.png);
+background-image: url(http://bitcoinoil.com/ICO/img/img/ico1.png);
 background-size: cover;
 background-blend-mode:soft-light;
 }
@@ -1137,7 +1137,7 @@ height: 10em;
 border-radius: 50%;
 margin-right:1em;
 background-color:rgba(105, 115, 123, 1);
-background-image: url(http://bitcoinoil.com/ICO/ico2.png);
+background-image: url(http://bitcoinoil.com/ICO/img/ico2.png);
 background-size: cover;
 background-blend-mode:soft-light;
 }
