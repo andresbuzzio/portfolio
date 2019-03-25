@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:500,500i,700');
 
 
+/*
 @font-face {
   font-family: Helvetica-Neue-Black;
   src: url(../font/helveticaneue-black-webfont.woff);
@@ -30,9 +31,11 @@
   font-family: Helvetica-Neue-Thin;
   src: url(../font/helveticaneue-thin-webfont.woff);
 }
+*/
 
 html {
 -webkit-text-size-adjust: none;
+font-family: 'Helvetica', 'Arial', sans-serif !important;
 }
 
 body {
@@ -40,7 +43,7 @@ width:100vw;
 max-width: 100%;
 background:#f8f8f8;
 color:rgba(105, 115, 123, 1);
-font-family: 'Helvetica', 'Arial', sans-serif;
+font-family: 'Helvetica', 'Arial', sans-serif !important;
 overflow-x: hidden !important;
 }
 
