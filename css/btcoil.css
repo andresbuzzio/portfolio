@@ -40,7 +40,7 @@ width:100vw;
 max-width: 100%;
 background:#f8f8f8;
 color:rgba(105, 115, 123, 1);
-font-family: Helvetica-Neue-Roman;
+font-family: 'Helvetica', 'Arial', sans-serif;
 overflow-x: hidden !important;
 }
 
