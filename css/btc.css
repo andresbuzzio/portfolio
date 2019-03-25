@@ -197,7 +197,7 @@ h1.centered {
 font-size: 2em;
 padding: 1em 0 .25em 0;
 color:rgba(105, 115, 123, 1);
-font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+font-family: 'Ubuntu', sans-serif !important;
 text-align: center;
 }
 
@@ -213,7 +213,7 @@ h1.centered-left {
 font-size: 50px;
 padding: 1em 0 0 0;
 color:rgba(255, 255, 255, 1);
-font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+font-family: 'Ubuntu', sans-serif !important;
 text-align: left;
 }
 
