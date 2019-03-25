@@ -1,2672 +1,1595 @@
-
-<!DOCTYPE html>
-<html>
-
-<head>
-
-<meta charset="UTF-8">
-
-<!--
-<meta name="title" content="Bitcoin Oil">
-<meta name="description" content="Bitcoin Oil. The New Bitcoin Fork From Switzerland. Bitcoin Oil (BTCO) is the official name of Bitcoin’s 2019 PoS hard fork which will implement a whole range of long overdue Bitcoin improvements based on the “Optimally Improved Ledger” (OIL) technology. The centerpiece of BTCO will be the highly innovative "SSPSS" strategy focusing on the development and implementation of essential Bitcoin improvements in the fields of Stability, Sustainability, Privacy, Smart Sidechains, and Scalability (or "SSPSS").">
-<meta name="keywords" content="blockchain, bitcoinoil, oil, bitcoin, ico">
-<meta name="author" content="">
--->
-
-
-<!--  Essential META Tags -->
-<meta property="og:title" content="Bitcoin Oil">
-<meta property="og:type" content="website" />
-<meta property="og:description" content="Bitcoin Oil. The New Bitcoin Fork From Switzerland. Bitcoin Oil (BTCO) is the official name of Bitcoin’s 2019 PoS hard fork which will implement a whole range of long overdue Bitcoin improvements based on the “Optimally Improved Ledger” (OIL) technology. The centerpiece of BTCO will be the highly innovative "SSPSS" strategy focusing on the development and implementation of essential Bitcoin improvements in the fields of Stability, Sustainability, Privacy, Smart Sidechains, and Scalability (or "SSPSS").">
-<meta property="og:image" content="https://bitcoinoil.com/img/logo.jpg">
-<meta property="og:url" content="https://bitcoinoil.com">
-
-
-
-    <title>
-    Bitcoin Oil
-    </title>
-
-    <!-- Setting Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Setting Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="HandheldFriendly" content="true">
-
-    <!-- CSS
-    <link rel="stylesheet" type="text/css" href="css/style1.css" />
-    -->
-
-
-    <link rel="stylesheet" type="text/css" href="https://gitcdn.link/repo/andresbuzzio/portfolio/gh-pages/css/btcoil2.css" />
-
-
-
-    <!--
-    <link rel="stylesheet" type="text/css" href="http://nordis.design/css/btcoin.css" />
-    -->
-
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" type="text/css" />
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-
-    <!-- <script src="jquery.scrollify.js"></script> -->
-
-    <!--
-    <script>
-      $(function() {
-        $.scrollify({
-          section : ".panel",
-        });
-      });
-    </script>
-    -->
-
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5045a178-9435-433e-8e9a-21f5f3f95012" type="text/javascript" async></script>
-
-
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-d-lg-none navbar-light bg-light fixed-top">
-
-        <a class="navbar-brand" href="index.html">
-            <div class="brand">
-                <img class="logo" src="img/bitcoin-logo.svg">
-            </div>
-        </a>
-
-        <div class="container-social">
-
-            <li class="nav-item">
-                <a href="https://t.me/Bitcoinoil" target="_blank">
-                    <i class="fab fa-telegram-plane"></i>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="https://twitter.com/BitCoinOilLLC" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="https://www.facebook.com/Bitcoin-Oil-1146993918810029/" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="https://www.linkedin.com/company/bitcoinoil/about/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-
-        </div>
-
-
-        </div>
-    </nav>
-
-
-
-            <div class="absolute-menu">
-
-              <div id="toggle">
-                  <img src="img/open-menu.svg">
-              </div>
-
-              <div id="toggle2">
-                  <img src="img/close-menu.svg">
-              </div>
-
-            </div>
-
-            <div class="the-menu">
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon0.svg">
-                    <a class="nav-link" href="#about">About Bitcoin Oil</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon1.svg">
-                    <a class="nav-link" href="#core-principles">Core Principles</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon1-2.svg">
-                    <a class="nav-link" href="#why">Why a hard fork?</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon2.svg">
-                    <a class="nav-link" href="#change">Need for Change</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon3.svg">
-                    <a class="nav-link" href="#solution">Our Solution</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon4.svg">
-                    <a class="nav-link" href="#vision">The Vision</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon5.svg">
-                    <a class="nav-link" href="#downloads">Downloads</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon19.svg">
-                    <a class="nav-link" href="#advantages">Our Advantages</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon6.svg">
-                    <a class="nav-link" href="#ico">ICO</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon7.svg">
-                    <a class="nav-link" href="#participate">How to Participate</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon8.svg">
-                    <a class="nav-link" href="#roadmap">Roadmap</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon12.svg">
-                    <a class="nav-link" href="#team">Development Team</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon13.svg">
-                    <a class="nav-link" href="#news">News</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon14.svg">
-                    <a class="nav-link" href="#exchanges">Exchanges</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon15.svg">
-                    <a class="nav-link" href="#wallets">Wallets</a>
-                </li>
-
-                <li class="nav-item">
-                    <img class="icon" src="img/icon16.svg">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-
-            </div>
-
-
-
-
-    <!-- SECTION RESIZE
-        <div id="resize">
-            <ul id="menu">
-                </div>
-
-            </ul>
-        </div>
-
-    </div>
-    -->
-
-    <div class="container-body">
-
-        <!-- SECTION FULL-WIDTH -->
-        <div class="full-container-dusk-top">
-
-            <div class="container-text-right">
-
-                <h1 class="centered-left">
-  Bitcoin Oil
-  </h1>
-                <h2 class="centered-left">
-  The New Bitcoin Fork from Switzerland<br>
-  </h2>
-
-                <div class="container margin-zero">
-                    <div class="row margin-zero">
-                        <div class="col-md-12 margin-zero">
-                            <p class="left-white-header">
-                                Bitcoin Oil (BTCO) is the official name of Bitcoin’s 2019 PoS hard fork which will implement a whole range of long overdue Bitcoin improvements based on the “Optimally Improved Ledger” (OIL) technology. The centerpiece of BTCO and its OIL will be the highly innovative "SSPSS" strategy focusing on the development and implementation of essential Bitcoin improvements in the fields of Stability, Sustainability, Privacy, Smart Sidechains, and Scalability (or "SSPSS").
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- END SECTION -->
-
-        <!-- SECTION ABOUT-->
-
-<section class="panel about" data-section-name="about">
-
-        <div class="container" id="about">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon0.svg">
-            </div>
-
-            <h1 class="centered">About Bitcoin Oil</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-6">
-
-                    <div class="whatisit-btc-oil-big margin-bottom">
-                        BTCO hard fork is launching in 2019.
-                    </div>
-
-                    <div class="numbers">
-                        <div class="">
-
-                            <div class="number">
-                                1
-                            </div>
-
-                            <div class="whatisit-btc-oil">
-                                Stability
-                            </div>
-
-                        </div>
-                        <!-- END TITLE DIV -->
-
-                        <div class="number-title">
-                            Minimizing Bitcoin’s volatility (i.e. by creating an incentives-based economy).
-                        </div>
-                    </div>
-                    <!-- END TITLE NUMBERS -->
-
-                    <div class="numbers">
-                        <div class="">
-                            <div class="number">
-                                2
-                            </div>
-
-                            <div class="whatisit-btc-oil">
-                                Sustainability
-                            </div>
-
-                        </div>
-                        <!-- END TITLE DIV -->
-
-                        <div class="number-title">
-                            Drastically reducing Bitcoin’s insane energy consumption (i.e. by altering the consensus protocol to PoS).
-                        </div>
-                    </div>
-                    <!-- END TITLE NUMBERS -->
-
-                    <div class="numbers">
-                        <div class="">
-                            <div class="number">
-                                3
-                            </div>
-
-                            <div class="whatisit-btc-oil">
-                                Privacy
-                            </div>
-
-                        </div>
-                        <!-- END TITLE DIV -->
-
-                        <div class="number-title">
-                            Implementing true privacy features (i.e. by enabling confidential transactions).
-                        </div>
-                    </div>
-                    <!-- END TITLE NUMBERS -->
-
-                    <div class="numbers">
-                        <div class="">
-                            <div class="number">
-                                4
-                            </div>
-
-                            <div class="whatisit-btc-oil">
-                                Smart Sidechains
-                            </div>
-
-                        </div>
-                        <!-- END TITLE DIV -->
-
-                        <div class="number-title">
-                            Empowering Bitcoin based ICOs and STOs (i.e. by employing full smart contract functionalities).
-                        </div>
-                    </div>
-                    <!-- END TITLE NUMBERS -->
-
-                    <div class="numbers">
-                        <div class="">
-                            <div class="number">
-                                5
-                            </div>
-
-                            <div class="whatisit-btc-oil">
-                                Scalability
-                            </div>
-
-                        </div>
-                        <!-- END TITLE DIV -->
-
-                        <div class="number-title">
-                            Developing cutting-edge scalability solutions (i.e. by complete integration of layer 2 protocols and offline transactions).
-                        </div>
-                    </div>
-                    <!-- END TITLE NUMBERS -->
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="whatisit-btc-oil-small">
-                        Bitcoin Oil (BTCO) is a new cryptocurrency based on the original Bitcoin blockchain technology which will be launched in 2019. The implementation of BTCO hard fork will create the most technologically advanced version of Bitcoin.
-                    </div>
-
-                    <div class="wrapper">
-                        <div class="wrapped">
-                            <img class="fork padding-image" src="img/fork.svg">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- END SECTION -->
-</section>
-
-        <!-- SECTION WHAT IS IT-->
-        <section class="panel core-principles" data-section-name="core-principles">
-
-        <div class="container" id="core-principles">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon1.svg">
-            </div>
-
-            <h1 class="centered">Core Principles</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core1.svg">
-                        </div>
-                        <div class="core-title">
-                            Stable Currency
-                        </div>
-                        <p class="center">
-                            BTCO will provide price stability through BTCO holders' loyalty.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core2.svg">
-                        </div>
-                        <div class="core-title">
-                            Energy Saving
-                        </div>
-                        <p class="center">
-                            BTCO will implement PoS and solve Bitcoin's energy consumption problems.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core3.svg">
-                        </div>
-                        <div class="core-title">
-                            Privacy Protection
-                        </div>
-                        <p class="center">
-                            BTCO will make the privacy protection of its users a top priority.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core4.svg">
-                        </div>
-                        <div class="core-title">
-                            Sidechain Mothership
-                        </div>
-                        <p class="center">
-                            BTCO will be the mothership for numerous sidechain applications.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core5.svg">
-                        </div>
-                        <div class="core-title">
-                            Unlimited Scalability
-                        </div>
-                        <p class="center">
-                            BTCO will create unprecedented PoS based scalability solutions.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core6.svg">
-                        </div>
-                        <div class="core-title">
-                            Capped Supply
-                        </div>
-                        <p class="center">
-                            BTCO will be a deflationary cryptocurrency with limited supply.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core7.svg">
-                        </div>
-                        <div class="core-title">
-                            Low Fees
-                        </div>
-                        <p class="center">
-                            BTCO will introduce extremely competitive transaction fees.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core8.svg">
-                        </div>
-                        <div class="core-title">
-                            Instant Transactions
-                        </div>
-                        <p class="center">
-                            BTCO will feature instant transactions with immediate execution.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core9.svg">
-                        </div>
-                        <div class="core-title">
-                            Open Source
-                        </div>
-                        <p class="center">
-                            BTCO will be open source and available for review and verification.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core10.svg">
-                        </div>
-                        <div class="core-title">
-                            Community Made
-                        </div>
-                        <p class="center">
-                            BTCO will be launched by and for members of the Bitcoin community.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core11.svg">
-                        </div>
-                        <div class="core-title">
-                            Concentrated Decentralization
-                        </div>
-                        <p class="center">
-                            BTCO will use the advantages of a concentrated ICO to create decentralization.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/core12.svg">
-                        </div>
-                        <div class="core-title">
-                            Concerted Effort
-                        </div>
-                        <p class="center">
-                            BTCO will use its proceeds to finance a concerted major development effort.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-        <!-- END SECTION -->
-
-        <!-- SECTION WHY-->
-
-        <section class="panel why" data-section-name="why">
-
-        <div class="container" id="why">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon1-2.svg">
-            </div>
-
-            <h1 class="centered">Why a hard fork?</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="container columns-two">
-                  Decentralized governance remains a huge issue and one of the main problems for Bitcoin in the future. When 95% supermajority of miners is required for the approval of change and only a few core developers could decide about Bitcoin Improvement Proposals (BIP) review and innovation, many years pass without innovation or improvements.
-                  Therefore, Bitcoin Oil has decided to end this innovation backlog by centralizing change. We believe "it takes a revolution to make a solution", and important improvements can only be accomplished in a timely manner as a result of a concerted action, which is why Bitcoin Oil has organized itself as company and has chosen the means of a hard fork to accomplish the wide range of innovations identified in our SSPSS strategy. It would probably take forever to get something as complex as our SSPSS innovations done in this long-winded BIP structure. Imagine what Bitcoin Oil's highly talented team of developers could accomplish in a few months or half a year, as after the ICO our team will have access to more developers than Bitcoin and our developers will be encouraged to fast-track all key developments without this lengthy BIP formalities. Hence, we will take several of Bitcoin's most promising pending BIPs and add several more of our own BIPs and create an unparalleled wave of innovations in such a short time, that the world will be able to choose between two versions of Bitcoin, one of which is still looking at a whole range of pending innovations and one of which will have already incorporated all of these (and many more) improvements.
-
-                    <div class="wrapper">
-                        <div class="wrapped">
-                            <img class="why padding-image" src="img/why.svg">
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-</section>
-        <!-- END SECTION -->
-
-        <!-- SECTION NEED FOR CHANGE-->
-
-        <section class="panel change" data-section-name="change">
-
-        <div class="container" id="change">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon2.svg">
-            </div>
-
-            <h1 class="centered">Need for Change</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6">
-                    Mass adoption is one of the main objectives of Bitcoin Oil's strategy, and in order to accomplish a meaningful market penetration rate, various key Bitcoin improvements can be considered mission critical in order to eliminate the following weaknesses and flaws of Bitcoin:
-
-                    <div class="wrapper">
-                        <div class="wrapped">
-                            <img class="need" src="img/need.svg">
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6">
-                    <div class="whatisit-btc-oil-small">
-                        <ul>
-                            <li>High price volatility and no reliable stability mechanisms</li>
-                            <li>No intrinsic value and a lack of valuable coin holding incentives</li>
-                            <li>Insane energy consumption and environmentally unfriendly</li>
-                            <li>Very limited privacy protection and absence of anonymity</li>
-                            <li>No smart contract functionalities and token creation features</li>
-                            <li>Scalability problems and a limited amount of possible transactions</li>
-                            <li>Slow confirmation times and inability to process quick transactions</li>
-                            <li>Huge transaction fees leading to congestion in the network</li>
-                            <li>Long-term security implications of its hashing SHA256 algorithm</li>
-
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-      </section>
-        <!-- END SECTION -->
-
-        <!-- SECTION -->
-
-        <section class="panel solution" data-section-name="solution">
-
-        <div class="container" id="solution">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon3.svg">
-            </div>
-
-            <div class="jumbotron">
-                <h1 class="centered">Our Solution</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 margin-more">
-
-                            Our solution will resolve Bitcoin’s innovation backlog and create a truly groundbreaking Bitcoin based blockchain technology. In this sense, it is very important to understand that Bitcoin Oil – unlike Bitcoin – will not have to follow the lengthy and protracted BIP procedures which make rapid change almost impossible. Contrary to that inhibitor of innovation, Bitcoin Oil has straight forward agreements in place with some of the largest blockchain and Bitcoin development companies in the world, which will be commissioned by us to build Bitcoin's 2019 BTCO fork and all subsequent improvements thereof.
-                            <br>
-                            <br>
-                            <br>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-
-                            <div class="icon-title">
-                                <div class="wrapper">
-                                    <i class="fas fa-dna"></i>
-                                </div>
-                            </div>
-                            <h2 class="solution">Hard Fork</h2>
-                            <p class="left">
-                                <ul>
-                                  <li>Forking an identical copy of today’s Bitcoin (BTC) </li>
-                                  <li>Adding various BTC’s long-pending BIPs</li>
-                                  <li>Including several more proprietary improvements </li>
-                                  <li>Launching the most advanced Bitcoin version</li>
-                                  <li>Distributing BTCO coins to all BTC coin holders</li>
-                                </ul>
-                            </p>
-
-                            <div class="icon-title">
-                                <div class="wrapper">
-                                    <i class="fas fa-building"></i>
-                                </div>
-                            </div>
-                            <h2 class="solution">Stability</h2>
-                            <p class="left">
-                                <ul>
-                                  <li>Massive reduction of market price volatility</li>
-                                  <li>Creating market price stability mechanisms</li>
-                                  <li>Implementing an economy of incentives</li>
-                                  <li>Rewarding coin holders, stakers, participants - Generating constant passive income streams</li>
-                                  <li>Generating constant passive income streams</li>
-                                </ul>
-                            </p>
-
-                            <div class="icon-title">
-                                <div class="wrapper">
-                                    <i class="fas fa-spa"></i>
-                                </div>
-                            </div>
-                            <h2 class="solution">Sustainability</h2>
-                            <p class="left">
-                                <ul>
-                                  <li>Replacing BTC's PoW by BTCO's PoS algorithm</li>
-                                  <li>Eliminating Bitcoin's insane energy consumption</li>
-                                  <li>Ensuring a clean and environmentally friendly conscience</li>
-                                  <li>Establishing independence from electricity supply</li>
-                                  <li>Developing very competitive transaction fees</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div class="col-md-6">
-
-                            <div class="icon-title">
-                                <div class="wrapper">
-                                    <i class="fas fa-fingerprint"></i>
-                                </div>
-                            </div>
-                            <h2 class="solution">Privacy</h2>
-                            <p class="left">
-                                <ul>
-                                  <li>Realizing anonymization strategies to protect privacy</li>
-                                  <li>Preventing tracing and ascertaining of sender's IP addresses</li>
-                                  <li>Enhancing on-chain privacy for senders and recipients</li>
-                                  <li>Increasing competitiveness by adding confidential transactions </li>
-                                  <li>Advancing tools such as Schnorr signatures, MAST, etc.</li>
-                                </ul>
-                            </p>
-
-                            <div class="icon-title">
-                                <i class="fas fa-dice-d20"></i>
-                            </div>
-
-                            <h2 class="solution">Smart Sidechains</h2>
-                            <p class="left">
-                                <ul>
-                                  <li>Building innovative duplex micropayment channels</li>
-                                  <li>Enabling ICOs and STOs on our Bitcoin-based blockchain</li>
-                                  <li>Facilitating incentivized and enforced execution of smart contracts</li>
-                                  <li>Representing decentralized autonomous applications worldwide</li>
-                                  <li>Integrating numerous other platforms with a 2-way peg</li>
-
-                                </ul>
-                            </p>
-
-                            <div class="icon-title">
-                                <i class="fas fa-layer-group"></i>
-                            </div>
-
-                            <h2 class="solution">Scalability</h2>
-                            <p class="left">
-                                <ul>
-                                  <li>Featuring layer 2 protocols and off-chain computations </li>
-                                  <li>Boosting the amount of possible network transactions </li>
-                                  <li>Altering transaction size and frequency limitations</li>
-                                  <li>Amplifying throughput without placing extra demand</li>
-                                  <li>Researching further scalability solutions like sharding</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!--
-  <div class="wrapper">
-  <div class="wrapped">
-
-  <img class="fork padding-image" src="img/fork.svg">
-
-  </div>
-  </div>
-
-  <div class="wrapper">
-  <div class="wrapped">
-  <a class="btn btn-primary btn-lg" href="#" role="button">Read the Whitepaper</a>
-  </div>
-  </div>
--->
-
-            </div>
-        </div>
-        </section>
-        <!-- END SECTION BEFORE FULL-WIDTH CONTAINER-->
-
-        <!-- SECTION FULL-WIDTH -->
-
-        <section class="panel vision" data-section-name="vision">
-
-        <div class="full-container-transparent" id="vision">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon4.svg">
-            </div>
-
-            <h1 class="centered">The Vision</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <p class="left">
-                            One day, all people on this planet (and beyond) will have the opportunity to use cryptocurrencies, realizing the full potential of decentralization in general and Bitcoin in particular, to drive a new era of economic change, growth, productivity, and prosperity. Therefore, Bitcoin Oil's mission is to create a better future for all by utilizing the unparalleled benefits of cryptocurrency and the amazing opportunities of an improved version of Bitcoin. In order to accomplish such a complex process of change, a certain amount of temporary centralization will be required, which is why Bitcoin Oil develops its highly innovative BTCO hard fork. As key element of this strategy Bitcoin Oil focusses on its intention to "go green" by utilizing the Proof of Stake (PoS) protocol to solve Bitcoin's serious energy consumption problems and related issues. We have an opportunity as Bitcoin Oil to mitigate, for the first time, a significant concern that cryptocurrency users have regarding a large amount of electric energy consumed by Bitcoin miners.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-                        <!--
-                        <iframe src="https://player.vimeo.com/video/265973494" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        -->
-
-                        <h1>Video is Coming Soon</h1>
-                        <!--
-                        <div class="wrapper">
-                            <a href="#" class="btn btn-primary btn-lg btn-primary-bigger">
-                        See More Videos
-                        </a>
-                        </div>
-                        -->
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-      </section>
-        <!-- END SECTION -->
-
-        <!-- SECTION DOWNLOADS-->
-
-        <section class="panel downloads" data-section-name="downloads">
-
-        <div class="container" id="downloads">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon5.svg">
-            </div>
-
-            <h1 class="centered">Downloads</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6">
-                    <p class="left">
-                        For more information regarding all additional technical details and specifications please review our forthcoming white paper and yellow paper both of which will be released shortly, once our team has completed its white paper and yellow paperwork and approval process. In the meantime, please read our Light Paper and our Pitch Deck.
-                    </p>
-                </div>
-
-                <div class="col-md-6">
-
-                    <!--
-                    <div class="wrapper">
-                        <a href="#" class="btn btn-primary btn-lg btn-primary-bigger" role="button" data-toggle="modal" data-target="#exampleModal">
-              Download Investor Deck <i class="fas fa-file-download"></i>
-              </a>
-                    </div>
-              -->
-
-                    <div class="wrapper">
-                        <a href="Bitcoin_Oil_Light_Paper.pdf" class="btn btn-primary no-margin btn-lg btn-primary-bigger" role="button">
-              Read Light Paper <i class="fas fa-file-download"></i>
-              </a>
-                    </div>
-
-                    <div class="wrapper">
-                        <a href="Bitcoin_Oil_Pitch_Deck.pdf" class="btn btn-primary no-margin btn-lg btn-primary-bigger" role="button">
-              Read Pitch Deck <i class="fas fa-file-download"></i>
-              </a>
-                    </div>
-
-                    <div class="wrapper">
-                        <a href="#newsletter" class="btn btn-primary no-margin btn-lg btn-primary-bigger" role="button">
-              Subscribe to Newsletter <i class="fas fa-file-download"></i>
-              </a>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-        <!-- END SECTION -->
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">
-            Please enter your password to access the Investor Deck:
-            </h5>
-
-                        <form name="PasswordField" action="">
-                            Password:
-                            <input type="password" id="password" name="password">
-                            <input type="button" id="login-me" class="login" value="Log in" onclick="isValid();">
-
-                            <a href="Bitcoin_Oil_Pitch_Deck.pdf">
-                                <input type="button" id="download-me" class="download" value="Download">
-                            </a>
-
-                        </form>
-
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        To request a password, please contact us by email (<a href="mailto:info@bitcoinoil.com">info@bitcoinoil.com</a>) or on Telegram (<a href="https://t.me/Bitcoinoil">@Bitcoin_Oil</a>)!
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </section>
-
-        <!-- SECTION OUR ADVANTAGES-->
-
-        <section class="panel advantages" data-section-name="advantages">
-
-        <div class="container" id="advantages">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon19.svg">
-            </div>
-
-            <h1 class="centered">Our Advantages</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 margin-more">
-
-                  The implementation of the BTCO hard fork will create the technologically most advanced version of Bitcoin. The centerpiece of BTCO and its "Optimally Improved Ledger" (OIL) will be the highly innovative "SSPSS" strategy (Stability – Sustainability – Privacy – Smart Sidechains – Scalability) focusing on the development of superior Bitcoin improvements. All innovations will be implemented by world-leading developers, creating huge opportunities and enormous potential for all BTCO participants and the entire Bitcoin community.
-                  <br><br>
-                  Our forthcoming 2019 hard fork has many advantages and will implement a whole range of long overdue Bitcoin improvements based on our “Optimally Improved Ledger” (OIL) technology.
-                  <br>
-                  <br>
-                  <br>
-
-                </div>
-            </div>
-        </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/adv1.svg">
-                        </div>
-                        <div class="core-title">
-                            Superior Technology
-                        </div>
-                        <p class="center">
-                            Bitcoin Oil‘s technology and features will be superior to Bitcoin‘s current blockchain.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/adv2.svg">
-                        </div>
-                        <div class="core-title">
-                            Proven BIPs
-                        </div>
-                        <p class="center">
-                            Bitcoin Oil‘s developers will implement various important and long overdue BIPs.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/adv3.svg">
-                        </div>
-                        <div class="core-title">
-                            Leading Developers
-                        </div>
-                        <p class="center">
-                            Bitcoin Oil‘s team of developers and external partner firms provide world-class resources.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-3 margin-bottom">
-                    <div class="core-box">
-                        <div class="core-icon">
-                            <img class="core" src="img/adv4.svg">
-                        </div>
-                        <div class="core-title">
-                            Enormous Potential
-                        </div>
-                        <p class="center">
-                            Bitcoin Oil offers an enormous potential for early adopters and future use cases.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </section>
-
-        <!-- SECTION ICO-->
-
-        <section class="panel ico" data-section-name="ico">
-
-        <div class="container" id="ico">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon6.svg">
-            </div>
-
-            <h1 class="centered">ICO</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-
-        <div class="container">
-            <div class="row">
-
-                <div class="container columns-two">
-
-                  In order to implement all predetermined Bitcoin improvements in a relatively short timeframe, Bitcoin Oil has straight forward agreements in place with some of the largest blockchain and Bitcoin development companies in the world, which will be commissioned by us to build Bitcoin's 2019 BTCO fork and all subsequent improvements thereof. A significant amount of all ICO proceeds will be used for these technological developments (both front-end & back-end and hardware & software).
-                  <br>
-                  <strong>ICO Structure:</strong> Bitcoin Oil's ICO is structured in three rounds which followed the initial seed rounds: the private presale, the public presale, and the ICO sale.
-                  <br>
-                  <strong>Pricing and Bonuses:</strong> The bonus for the private presale is 85%, the bonus for the public presale are expected to ranges from 55% to 75%, and the bonus for the ICO sale are expected to ranges from 15% to 45%.
-                  <br>
-                  <strong>Amount of Proceeds:</strong> Based on the assumption that all three rounds of Bitcoin Oil's ICO would be entirely sold, the total amount of gross proceeds are expected to be approximately $102,000,000.
-                  <br>
-                  <strong>Split Adjustment:</strong> To optimize fungibility and tradability (and avoid the Berkshire Hathaway share price problem) BTCO implements a computed 1:1,000 "forward split" resulting in a BTCO coin price divided by 1,000 and a maximum supply multiplied by 1,000 (compared to BTC), based on a predetermined BTC price of US$1,000.
-                  <br>
-                  <strong>Maximum Supply:</strong> The maximum amount of BTCO that will ever exist in the lifetime of the cryptocurrency will be 21,000,000,000 (21 billion) BTCO (capped supply).
-                  <br>
-                  <strong>Total Supply:</strong> The total amount of BTCO in existence at its launch after the ICO sale will be 5,000,000,000 (5 billion) BTCO.
-                  <br>
-                  <strong>Circulating Supply:</strong> The number of BTCO that will be circulating in the market and in the general public's hands will be 3,000,000,000 (3 billion) BTCO.
-                  <br>
-                  <strong>Reserve Amount:</strong> A total of 2,000,000,000 (2 billion) BTCO will be temporarily held by Bitcoin Oil (e.g. to increase network safety by making, for example, any 51% attack much harder) and released to the community (e.g. in form of reward payments) as decentralization increases over time.
-                  <br>
-                  <strong>Distribution of BTCO:</strong> Bitcoin Oil will allocate a fair share of its total supply to all current Bitcoin (BTC) holders. Please note: Bitcoin Oil will never ask you for your private keys; for further details regarding details and procedures, please review our forthcoming white paper.
-                  <br>
-                  <strong>Use of Proceeds:</strong> A significant amount of all ICO proceeds will be used for these technological developments (both front-end & back-end and hardware & software); for further details regarding the detailed use of proceeds, please review our forthcoming white paper.
-                  <br>
-                  In addition, figures, mechanism, manners and any transactions described above relating to public presale or ICO sale may be different in or absent from and additional figures, mechanism manners and any transactions relating to public presale and ICO sale may be added in the final version of the White Paper.
-
-
-                    <div class="wrapper">
-                        <div class="wrapped">
-                            <img class="ico" src="img/ico.svg">
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row margin-more">
-
-                <div class="col-md-4">
-                </div>
-
-                <div class="col-md-4">
-                    <div class="wrapper">
-                        <a href="mailto:info@bitcoinoil.com?subject=Request%20for%20Private%20Presale%20Investor%20Information" class="btn btn-primary btn-lg btn-primary-bigger">
-        Buy BTCO Coins
-        </a>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                </div>
-
-            </div>
-        </div>
-      </section>
-
-        <!-- END SECTION -->
-
-        <!-- SECTION ICO-->
-
-        <section class="panel participate" data-section-name="participate">
-
-        <div class="container" id="participate">
-
-            <div class="wrapper">
-                <img class="icon-big" src="img/icon7.svg">
-            </div>
-
-            <h1 class="centered">How to Participate</h1>
-
-            <div class="wrapper">
-                <div class="caption-line-centered"></div>
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="container columns-two">
-
-                    Currently, Bitcoin Oil is in the process of conducting its private presale of certain promissory notes in the aggregate principal amount of US$1.5 million, payable in BTCO upon the completion of the ICO. Bitcoin Oil has invited its network of "friends & family" purchasers and early-stage development partners and others to participate in the private presale which is expected to close in the second half of March 2019. The private presale will be completed in one or more transactions outside the United States in accordance with Regulation S of the Securities Act of 1933, as amended, and in the United States only to purchasers who are "accredited investors" within the meaning of subparagraph (a) of Rule 501 in reliance on Regulation D of the Securities Act of 1933, as amended. In addition, the offering and sale of the notes and the delivery and distribution of the notes or BTCO may be restricted by laws in certain other jurisdictions. Bitcoin Oil may, from time to time, revise the foregoing mechanics to comply with regulatory requirements or other governmental or business obligations as Bitcoin Oil deems appropriate or desirable under the circumstances.
-
-                    <br>
-                    <br>
-
-                    <a href="mailto:info@bitcoinoil.com?subject=Request%20for%20Private%20Presale%20Investor%20Information" class="btn btn-primary btn-lg btn-primary-bigger">
-              Request Private Presale Info <i class="fas fa-file-download"></i>
-              </a>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="wrapper">
-          <div class="wrapped margin-top-top">
-        <h2 class="bonuses">Pricing and Bonuses</h2><br>
-      </div>
-  </div>
-
-        <div class="container margin-more">
-            <div class="row">
-
-                <div class="col-md-4">
-
-                    <div id="donut1" data-role="donut" data-color="#ff7900" data-background="rgba (255,255,255, 0)" data-fill="#ff7900" data-value="85"></div>
-                    <p class="margin-top-bottom">
-                    The bonus for the private presale is 85%
-                    </p>
-
-                </div>
-
-                <div class="col-md-4">
-
-                    <div id="donut2" data-role="donut" data-color="#ff7900" data-background="rgba (255,255,255, 0)" data-fill="#ff7900" data-value="75"></div>
-                    <p class="margin-top-bottom">
-                    The bonus for the public presale are expected to ranges from 55% to 75%
-                    </p>
-
-                </div>
-
-                <div class="col-md-4">
-                    <div id="donut2" data-role="donut" data-color="#ff7900" data-background="rgba (255,255,255, 0)" data-fill="#ff7900" data-value="45"></div>
-                    <p class="margin-top-bottom">
-                    The bonus for the ICO sale are expected to range from 15% to 45%
-                    </p>
-                </div>
-            </div>
-          </section>
-            <!-- END SECTION -->
-
-            <!-- SECTION ROADMAP-->
-
-            <section class="panel roadmap" data-section-name="roadmap">
-
-            <div class="container" id="roadmap">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon8.svg">
-                </div>
-
-                <h1 class="centered">Roadmap</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-                <p class="center">
-                    The following roadmap represents an overview of the past one and a half years since Bitcoin Oil's inception and an outlook to the future (including key milestones as we expect them to happen):
-                </p>
-
-                <div class="timeline">
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>November 2017</h2>
-                            <p>
-                                <strong>Platform Idea</strong>
-                                <br> The origin of Bitcoin Oil's blockchain platform idea. Development of the concept of our overall business plan.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>January 2018</h2>
-                            <p>
-                                <strong>Elaboration of Platform</strong>
-                                <br> Elaboration of Bitcoin Oil's blockchain platform. Integration into a suitable legal model for various jurisdictions. Attracting internal investments from existing partners to pre-finance the initiative. Development of a pilot paper for circulation.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>June 2018</h2>
-                            <p>
-                                <strong>
-                            Internal Fundraising
-                            </strong>
-                                <br> Attracting of further investments from existing partners. Preparation for Bitcoin Oil's company formations. Additional team building.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>August 2018</h2>
-                            <p>
-                                <strong>
-                            Attraction of Advisors
-                            </strong>
-                                <br> Attraction of key international advisors. Further development of the Bitcoin Oil platform concept. Preparations for technical details.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>September 2018</h2>
-                            <p>
-                                <strong>
-                            Technical Details
-                            </strong>
-                                <br> Development of partnerships for technical details. Agreements with key partners and partner companies. Development of more detailed briefing documents.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>October 2018</h2>
-                            <p>
-                                <strong>Preparing for ICO</strong>
-                                <br> Formation of Bitcoin Oil's Advisory Board. Internal start of platform concept development. Begin of ecosystem specifications (involving partners). Attending key crypto events for strategic meetings.
-
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>November 2018</h2>
-
-                            <p>
-                                <strong>Preparing for ICO</strong>
-                                <br> Additional preparations for ICO. Engagement of additional legal advisors. Continue the concept development for the platform. Ecosystem specifications continuation (more partners involved).
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>February 2019</h2>
-                            <p>
-                                <strong>Hiring Campaign</strong>
-                                <br> Begin of Bitcoin Oil's hiring campaign to increase team. Signing LOIs with key blockchain partner firms. Adding more people to the Advisory Board.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>March 2019</h2>
-                            <p>
-                                <strong>Starting Private Presale</strong>
-                                <br> Receiving additional funding as part of the private presale. The release of the first Light Paper. Building a developer alliance to support our developments. Working closely with highly specialized Bitcoin development companies.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>April 2019</h2>
-                            <p>
-                                <strong>Conducting Public Presale</strong>
-                                <br> Launching the Public Presale of BTCOs. The release of the first white paper. Attending more crypto events and presenting to investors. Preparation for BTCO listings on cryptocurrency exchanges.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>May 2019</h2>
-                            <p>
-                                <strong>Launching ICO</strong>
-                                <br> Conducting the ICO sale for BTCO. The release of the first technical yellow paper. Development of further Bitcoin Oil specifications. Definition of Bitcoin Oil integration with partner applications. More detailed briefings of functionality development.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>Q2 2019</h2>
-                            <p>
-                                <strong>Internal Beta Release</strong>
-                                <br> Internal Platform Beta release. Internal Web Wallet and Mobile Wallet Beta versions. Working on the integration of feature releases. Continuation of an active development process. Continuing preparation for BTCO listings on cryptocurrency exchanges.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>Q3 2019</h2>
-                            <p>
-                                <strong>Hard Fork</strong>
-                                <br> The launch of Bitcoin's BTCO hard fork. Distribution of total BTCO supply to all coin subscribers. Conducting distribution of BTCOs to all BTC holders in connection with the hard fork. BTCO listings on various non-U.S. cryptocurrency exchanges. The release of the final version of the technical yellow paper. Further development of additional improvements.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>Q4 2019
-                            </h2>
-                            <p>
-                                <strong>Further Developments</strong>
-                                <br> Additional development of more complex improvements. Involvement of specialized partners to develop certain features. BTCO listings on additional non-U.S. cryptocurrency exchanges.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont left">
-                        <div class="content">
-                            <h2>Q1-Q4 2020</h2>
-                            <p>
-                                <strong>Implementation Additional Features</strong>
-                                <br> Introduction of our peer-to-peer micropayment platform. Presentation of our integrated e-commerce solutions Implementation of additional and more complex new features. Further development of additional improvements.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="cont right">
-                        <div class="content">
-                            <h2>Q1-Q4, 2021</h2>
-                            <p>
-                                <strong>Further Developments</strong>
-                                <br> Implementation of additional and more complex new features. Further development of additional improvements.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- END TIMELINE -->
-
-            </div>
-          </section>
-
-            <!-- END SECTION -->
-
-            <!-- SECTION EXECUTIVES
-
-            <div class="container" id="executives">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon9.svg">
-                </div>
-
-                <h1 class="centered">Executives</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="icon-people">
-                        </div>
-                        <p class="left">
-                            Lorem ipsum dolor sit amet, eget nec, eget consectetuer dictumst vestibulum sapien, consectetuer potenti lorem aliquam augue, mi wisi luctus. Laoreet tellus varius mauris vitae aenean, euismod montes elit porttitor, eget lectus mauris purus eu, non eu imperdiet tortor nulla dapibus a, sem a vulputate erat. Metus cras rutrum tincidunt metus odio morbi, class praesent arcu laboriosam semper lorem, convallis nam duis vitae non, tortor porttitor tincidunt elementum in cursus amet. Amet consectetuer arcu enim bibendum do, non eleifend tristique faucibus repellendus, quam in erat donec eget leo integer, fusce wisi mauris tellus. Tortor nunc justo quaerat, ipsum purus, luctus sit praesent animi mollis augue. Sed velit a, sed dolor in suspendisse eget vitae dui, ornare non dictum.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="icon-people2">
-                        </div>
-                        <p class="left">
-                            Lorem ipsum dolor sit amet, eget nec, eget consectetuer dictumst vestibulum sapien, consectetuer potenti lorem aliquam augue, mi wisi luctus. Laoreet tellus varius mauris vitae aenean, euismod montes elit porttitor, eget lectus mauris purus eu, non eu imperdiet tortor nulla dapibus a, sem a vulputate erat. Metus cras rutrum tincidunt metus odio morbi, class praesent arcu laboriosam semper lorem, convallis nam duis vitae non, tortor porttitor tincidunt elementum in cursus amet. Amet consectetuer arcu enim bibendum do, non eleifend tristique faucibus repellendus, quam in erat donec eget leo integer, fusce wisi mauris tellus. Tortor nunc justo quaerat, ipsum purus, luctus sit praesent animi mollis augue. Sed velit a, sed dolor in suspendisse eget vitae dui, ornare non dictum.
-                        </p>
-
-                    </div>
-
-                </div>
-            </div>-->
-            <!-- END SECTION -->
-
-            <!-- SECTION EXECUTIVES
-
-            <div class="container" id="advisors">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon10.svg">
-                </div>
-
-                <h1 class="centered">Advisory Board</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="icon-people">
-                        </div>
-                        <p class="left">
-                            Lorem ipsum dolor sit amet, eget nec, eget consectetuer dictumst vestibulum sapien, consectetuer potenti lorem aliquam augue, mi wisi luctus. Laoreet tellus varius mauris vitae aenean, euismod montes elit porttitor, eget lectus mauris purus eu, non eu imperdiet tortor nulla dapibus a, sem a vulputate erat. Metus cras rutrum tincidunt metus odio morbi, class praesent arcu laboriosam semper lorem, convallis nam duis vitae non, tortor porttitor tincidunt elementum in cursus amet. Amet consectetuer arcu enim bibendum do, non eleifend tristique faucibus repellendus, quam in erat donec eget leo integer, fusce wisi mauris tellus. Tortor nunc justo quaerat, ipsum purus, luctus sit praesent animi mollis augue. Sed velit a, sed dolor in suspendisse eget vitae dui, ornare non dictum.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <div class="icon-people2">
-                        </div>
-                        <p class="left">
-                            Lorem ipsum dolor sit amet, eget nec, eget consectetuer dictumst vestibulum sapien, consectetuer potenti lorem aliquam augue, mi wisi luctus. Laoreet tellus varius mauris vitae aenean, euismod montes elit porttitor, eget lectus mauris purus eu, non eu imperdiet tortor nulla dapibus a, sem a vulputate erat. Metus cras rutrum tincidunt metus odio morbi, class praesent arcu laboriosam semper lorem, convallis nam duis vitae non, tortor porttitor tincidunt elementum in cursus amet. Amet consectetuer arcu enim bibendum do, non eleifend tristique faucibus repellendus, quam in erat donec eget leo integer, fusce wisi mauris tellus. Tortor nunc justo quaerat, ipsum purus, luctus sit praesent animi mollis augue. Sed velit a, sed dolor in suspendisse eget vitae dui, ornare non dictum.
-                        </p>
-
-                    </div>
-
-                </div>
-            </div>-->
-            <!-- END SECTION -->
-
-            <!-- SECTION PARTNER
-
-            <div class="container" id="partner">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon11.svg">
-                </div>
-
-                <h1 class="centered">Partner Firms</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <p class="left">
-                            Lorem ipsum dolor sit amet, eget nec, eget consectetuer dictumst vestibulum sapien, consectetuer potenti lorem aliquam augue, mi wisi luctus. Laoreet tellus varius mauris vitae aenean, euismod montes elit porttitor, eget lectus mauris purus eu, non eu imperdiet tortor nulla dapibus a, sem a vulputate erat. Metus cras rutrum tincidunt metus odio morbi, class praesent arcu laboriosam semper lorem, convallis nam duis vitae non, tortor porttitor tincidunt elementum in cursus amet. Amet consectetuer arcu enim bibendum do, non eleifend tristique faucibus repellendus, quam in erat donec eget leo integer, fusce wisi mauris tellus. Tortor nunc justo quaerat, ipsum purus, luctus sit praesent animi mollis augue. Sed velit a, sed dolor in suspendisse eget vitae dui, ornare non dictum.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <p class="left">
-                            Lorem ipsum dolor sit amet, eget nec, eget consectetuer dictumst vestibulum sapien, consectetuer potenti lorem aliquam augue, mi wisi luctus. Laoreet tellus varius mauris vitae aenean, euismod montes elit porttitor, eget lectus mauris purus eu, non eu imperdiet tortor nulla dapibus a, sem a vulputate erat. Metus cras rutrum tincidunt metus odio morbi, class praesent arcu laboriosam semper lorem, convallis nam duis vitae non, tortor porttitor tincidunt elementum in cursus amet. Amet consectetuer arcu enim bibendum do, non eleifend tristique faucibus repellendus, quam in erat donec eget leo integer, fusce wisi mauris tellus. Tortor nunc justo quaerat, ipsum purus, luctus sit praesent animi mollis augue. Sed velit a, sed dolor in suspendisse eget vitae dui, ornare non dictum.
-                        </p>
-
-                    </div>
-
-                </div>
-            </div>-->
-            <!-- END SECTION -->
-
-            <!-- SECTION FRIENDS-->
-
-            <section class="panel team" data-section-name="team">
-
-            <div class="container" id="team">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon12.svg">
-                </div>
-
-                <h1 class="centered">Development Team</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                  <div class="container columns-two">
-                        Fortunately, Bitcoin Oil will not have to follow the lengthy and protracted BIP procedures which make rapid change almost impossible. As outlined before, Bitcoin Oil has straight forward agreements in place with some of the largest blockchain and Bitcoin development companies in the world, which will be commissioned by us to build Bitcoin's 2019 BTCO fork and all subsequent improvements thereof.
-
-
-                    So, Bitcoin Oil is in the process of implementing a threefold development approach by integrating in-house development teams, outsourced individual developers, and large blockchain development companies, thereby enabling Bitcoin Oil to ensure the availability at all times the resources required for its continued technical implementation process. Therefore, Bitcoin Oil recently announced details of its plan to partner with top-rated blockchain development companies to roll out its strategic plan and roadmap, including the forthcoming Proof-of-Stake ("PoS") based Bitcoin hard fork. Ahead of this hotly anticipated milestone, Bitcoin Oil has already launched a hiring campaign with several new job postings being published on the internet for its internal team of developers. At the same time, Bitcoin Oil built partnerships with more than a handful of well-known blockchain development companies in different countries to become development partners for Bitcoin Oil's technical blockchain developments providing a workforce of several hundred developers.
-
-                    <div class="wrapper">
-                      <div class="wrapped">
-                       <img class="why padding-image" src="img/development.svg">
-                      </div>
-                    </div>
-
-                    <div class="wrapper">
-                      <div class="wrapped">
-                    <a class="btn btn-primary btn-lg" href="Bitcoin_Oil_Pitch_Deck.pdf" target="_blank" role="button"><strong>Download Pitch Deck</strong><br>(With Additional Team Info)<br></a>
-                  </div>
-                </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-          </section>
-            <!-- END SECTION -->
-
-            <!-- SECTION MEDIA-->
-
-            <section class="panel news" data-section-name="news">
-
-            <div class="container" id="news">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon13.svg">
-                </div>
-
-                <h1 class="centered">News</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                  <div class="col-md-4 margin-bottom">
-                      <div class="media-pill">
-
-                          <div class="box-ss">
-
-                              <div class="photo-ss-small">
-                                  <div class="caption-ss-small">
-                                      <div class="ss-featured-text">
-                                          March 14, 2019:
-                                      </div>
-                                  </div>
-                              </div>
-
-                              <div class="title-ss">
-Bitcoin Oil Creates Coin Price Stability Through Hodlers Rewards
-                             </div>
-
-                              <p class="left-white-news">
-                                  BTCO believes that the Hodlers Rewards program will likely reduce the price volatility of BTCO, which in turn will result in BTCO being a uniquely-positioned cryptocurrency that will become more useful as a medium of exchange and a reasonable stable store of value. Hence, BTCO is creating stability through an economy of incentives with an improved structure of Bitcoin’s blockchain enhanced with entirely new algorithms and technologies.
-                              </p>
-
-                              <a class="btn btn-primary btn-lg" href="https://www.prweb.com/releases/bitcoin_oil_creates_coin_price_stability_through_hodlers_rewards/prweb16158905.htm" target="_blank" role="button">Read More...</a>
-
-                          </div>
-
-                      </div>
-                  </div>
-
-                  <div class="col-md-4 margin-bottom">
-                      <div class="media-pill">
-
-                          <div class="box-ss">
-
-                              <div class="photo-ss-small">
-                                  <div class="caption-ss-small">
-                                      <div class="ss-featured-text">
-                                          February 22, 2019:
-                                      </div>
-                                  </div>
-                              </div>
-
-                              <div class="title-ss">
-                                  Bitcoin Oil Partners with Crypto Development Companies and Launches Hiring Campaign
-                              </div>
-
-                              <p class="left-white-news">
-                                  Bitcoin Oil has launched a hiring campaign while at the same time partnering up with a handful of well-known blockchain development companies in order to carry out Bitcoin Oil’s technical blockchain developments. Bitcoin Oil plans to implement a threefold development approach by integrating in-house development teams, outsourced individual developers, and blockchain development companies, thereby enabling Bitcoin Oil to ensure the availability at all times the resources required for the company's continued technical implementation process.
-                              </p>
-                              <a class="btn btn-primary btn-lg" href="https://www.prweb.com/releases/bitcoin_oil_partners_with_crypto_development_companies_and_launches_hiring_campaign/prweb16122405.htm" target="_blank" role="button">Read More...</a>
-
-                          </div>
-
-                      </div>
-                  </div>
-
-                    <div class="col-md-4 margin-bottom">
-                        <div class="media-pill">
-
-                            <div class="box-ss">
-
-                                <div class="photo-ss-small">
-                                    <div class="caption-ss-small">
-                                        <div class="ss-featured-text">
-                                            February 11, 2019:
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="title-ss">
-                                    Bitcoin Oil Launches Limited Private Pre-Sale and Exclusive “Founders 300 Club”
-                                </div>
-
-                                <p class="left-white-news">
-                                    Bitcoin Oil today announces its plan to offer to a limited number of qualified purchasers, or “Private Purchasers,” certain promissory notes in the aggregate principal amount of $1.5 million through Bitcoin Oil’s holding company. The foregoing note sale is referred to as the “Private Pre-Sale”. A public pre-sale of Bitcoin Oil is expected to follow the Private Pre-Sale, to be followed by the ICO thereafter.
-                                </p>
-                                <a class="btn btn-primary btn-lg" href="https://www.prweb.com/releases/bitcoin_oil_launches_limited_private_pre_sale_and_exclusive_founders_300_club/prweb16094011.htm" target="_blank" role="button">Read More...</a>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 margin-bottom">
-                        <div class="media-pill">
-
-                            <div class="box-ss">
-
-                                <div class="photo-ss-small">
-                                    <div class="caption-ss-small">
-                                        <div class="ss-featured-text">
-                                            February 6, 2019:
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="title-ss">
-                                    Bitcoin Oil Considers Price Stability The Pathway to Bitcoin Mass Adoption
-                                </div>
-
-                                <p class="left-white-news">
-                                    Bitcoin Oil announces further details of its “Optimally Improved Ledger” (OIL) business plan to create an all-new Bitcoin blockchain technology, and to create an asset-enhanced, stability-enhanced Bitcoin cryptocurrency under the name Bitcoin Oil, or “OIL” as an abbreviation. Besides its intentions to “go green”, by utilizing PoS consensus and discontinuing the energy consuming PoW protocol, Bitcoin Oil’s team considers price stability and drastically reduced volatility as the pathway to Bitcoin mass adoption.
-                                </p>
-                                <a class="btn btn-primary btn-lg" href="https://www.globenewswire.com/news-release/2019/02/06/1711634/0/en/Bitcoin-Oil-Considers-Price-Stability-The-Pathway-to-Bitcoin-Mass-Adoption.html" target="_blank" role="button">Read More...</a>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 margin-bottom">
-                        <div class="media-pill">
-
-                            <div class="box-ss">
-
-                                <div class="photo-ss-small">
-                                    <div class="caption-ss-small">
-                                        <div class="ss-featured-text">
-                                            February 4, 2019:
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="title-ss">
-                                    Bitcoin Oil Announces Its Intentions To Go Green Solving Bitcoin's Energy Consumption Problems
-                                </div>
-
-                                <p class="left-white-news">
-                                    Bitcoin Oil, or the Company, announces its plan to create a highly innovative Bitcoin fork and generate crypto-assets which the Company refers to as Bitcoin Oil, or OIL. In addition, Bitcoin Oil also announces its intentions to “go green” by utilizing the Power of Stake, or PoS, protocol to solve Bitcoin's serious energy consumption problems. Says Hannah Paddock, Bitcoin Oil's CMO.
-                                </p>
-                                <a class="btn btn-primary btn-lg" href="https://www.businesswire.com/news/home/20190204005243/en/Bitcoin-Oil-Announces-Intentions-Green-Solve-Bitcoins" target="_blank" role="button">Read More...</a>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 margin-bottom">
-                        <div class="media-pill">
-
-                            <div class="box-ss">
-
-                                <div class="photo-ss-small">
-                                    <div class="caption-ss-small">
-                                        <div class="ss-featured-text">
-                                            February 2, 2019:
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="title-ss">
-                                    Bitcoin Oil Announces Planned Bitcoin Fork Featuring PoS and Other Key Bitcoin Improvements
-                                </div>
-
-                                <p class="left-white-news">
-                                    Bitcoin Oil (“the Company“) announced today its plan to launch the Bitcoin Oil fork, a new major fork upgrade to the Bitcoin blockchain network. The company intends to use "OIL" as an abbreviation for Bitcoin Oil, which stands for “Optimally Improved Ledger”, implementing several crucial improvements to Bitcoin’s existing distributed ledger platform.
-                                </p>
-                                <a class="btn btn-primary btn-lg" href="https://www.businesswire.com/news/home/20190202005025/en/Bitcoin-Oil-Announces-Planned-Bitcoin-Fork-Featuring" target="_blank" role="button">Read More...</a>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-
-
-                </div>
-            </div>
-          </section>
-            <!-- END SECTION -->
-
-            <!-- SECTION EXCHANGES-->
-
-            <section class="panel exchanges" data-section-name="exchanges">
-
-            <div class="container" id="exchanges">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon14.svg">
-                </div>
-
-                <h1 class="centered">Exchanges</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-12">
-                        Bitcoin Oil’s team is in touch with several non-U.S. cryptocurrency exchanges (also very well-known ones) and we expect support from various platforms for our forthcoming BTCO hard fork (more details will be announced in due course). Besides these customary non- U.S. exchanges, Bitcoin Oil expect to prepares multiple applications and day-to-day trading opportunities outside of United States for BTCO, including but not limited to P2P- Micropayments, P2P-Markets, E-Commerce, ICOs/STOs, ATMs, BTCO Credit Cards, Gift Cards, larger Exchange Platforms and Savings Plans. If you have any questions or inquiries regarding the future listings of BTCO at leading exchanges or any other platforms, please feel free to contact us at <a href="mailto:info@bitcoinoil.com">info@bitcoinoil.com</a>.
-                    </div>
-
-                    <div class="col-md-12">
-                        <h2 class="solution">
-                      <br>
-                      Different Possible Ways to Trade and Use BTCO in the Future.
-                    </h2>
-                    </div>
-
-                    <div class="col-md-1">
-                    </div>
-
-
-                    <div class="col-md-5">
-
-
-                        <div class="core-box-exchanges">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/adv2.svg">
-                          </div>
-                          <p class="next-icon">P2P-Micropayments</p>
-                        </div>
-
-
-
-                        <div class="core-box-exchanges2">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex2.svg">
-                          </div>
-                          <p class="next-icon">P2P-Markets</p>
-                        </div>
-
-
-
-                        <div class="core-box-exchanges">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex3.svg">
-                          </div>
-                          <p class="next-icon">E-Commerce</p>
-                        </div>
-
-
-
-                        <div class="core-box-exchanges2">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex4.svg">
-                          </div>
-                          <p class="next-icon">ICOs/STOs</p>
-                        </div>
-
-
-
-                        <div class="core-box-exchanges">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex5.svg">
-                          </div>
-                          <p class="next-icon">ATMs</p>
-                        </div>
-
-
-                      </div>
-
-
-                      <div class="col-md-5">
-
-
-                        <div class="core-box-exchanges">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex6.svg">
-                          </div>
-                          <p class="next-icon">BTCO Credit Cards</p>
-                        </div>
-
-
-
-                        <div class="core-box-exchanges2">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex7.svg">
-                          </div>
-                          <p class="next-icon">Gift Cards</p>
-                        </div>
-
-
-
-                        <div class="core-box-exchanges">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex8.svg">
-                          </div>
-                          <p class="next-icon">Exchange Platforms</p>
-                        </div>
-
-
-                        <div class="core-box-exchanges2">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex9.svg">
-                          </div>
-                          <p class="next-icon">Crypto Exchanges</p>
-                        </div>
-
-
-                        <div class="core-box-exchanges2">
-                          <div class="core-exchange-icon">
-                              <img class="core" src="img/ex10.svg">
-                          </div>
-                          <p class="next-icon">Savings Plans</p>
-                        </div>
-
-
-                      </div>
-
-                    </div>
-
-                    <div class="col-md-1">
-                    </div>
-
-                    <div class="col-md-12">
-                    </div>
-
-                    <p>
-                    <br>
-                    Trading BTCOs within U.S. is prohibited. BTCOs may only be offered, resold or transferred on foreign exchanges outside U.S., or in any other transactions outside U.S. in compliance with Regulation S. To the extent BTCOs to be transferred within the United States, such transfer shall be in accordance with Rule 144, and only upon the delivery of a legal opinion satisfactory to Bitcoin Oil.
-                    </p>
-
-                    </div>
-
-                </div>
-            </div>
-
-
-</section>
-            <!-- END SECTION -->
-
-            <!-- SECTION WALLETS-->
-
-            <section class="panel wallets" data-section-name="wallets">
-
-            <div class="container" id="wallets">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon15.svg">
-                </div>
-
-                <h1 class="centered">Wallets</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-12">
-                        Our wallets will be available soon, and more wallets will follow (also from well-known third-party wallet providers who we are currently talking to). If you have any questions or inquiries regarding our wallets, please feel free to contact us at <a href="mailto:info@bitcoinoil.com">info@bitcoinoil.com</a>. Please note: Bitcoin Oil will never ask you for your private keys; for further details regarding the BTCO distribution procedures, please review our forthcoming white paper.
-                    <br>
-                    <br>
-                    <br>
-                    </div>
-
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-md-3 margin-bottom">
-
-                                    <div class="wallet-pill1">
-                                        <div class="wallet-icon1">
-                                            <i class="fab fa-windows"></i>
-                                        </div>
-                                        <p class="left-white-wallet1">
-                                            Download the
-                                            <br><strong>Window Wallet</strong>
-                                        </p>
-                                    </div>
-
-                            </div>
-
-                            <div class="col-md-3 margin-bottom">
-
-                                    <div class="wallet-pill2">
-                                        <div class="wallet-icon2">
-                                            <i class="fab fa-apple"></i>
-                                        </div>
-                                        <p class="left-white-wallet2">
-                                            Download the
-                                            <br><strong>Apple Wallet</strong>
-                                        </p>
-                                    </div>
-
-                            </div>
-
-                            <div class="col-md-3 margin-bottom">
-
-                                    <div class="wallet-pill3">
-                                        <div class="wallet-icon3">
-                                            <img class="wallet" src="img/linux.svg">
-                                        </div>
-                                        <p class="left-white-wallet3">
-                                            Download the
-                                            <br><strong>Linux Wallet</strong>
-                                        </p>
-                                    </div>
-
-                            </div>
-
-                            <div class="col-md-3 margin-bottom">
-
-                                    <div class="wallet-pill4">
-                                        <div class="wallet-icon4">
-                                            <i class="fab fa-android"></i>
-                                        </div>
-                                        <p class="left-white-wallet4">
-                                            Download the
-                                            <br><strong>Android Wallet</strong>
-                                        </p>
-                                    </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-          </section>
-            <!-- END SECTION -->
-
-            <!-- SECTION NEWSLETTER-->
-
-            <section class="panel contact" data-section-name="contact">
-
-            <div class="container" id="contact">
-
-                <div class="wrapper">
-                    <img class="icon-big" src="img/icon16.svg">
-                </div>
-
-                <h1 class="centered">Newsletter</h1>
-
-                <div class="wrapper">
-                    <div class="caption-line-centered"></div>
-                </div>
-
-            </div>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-2">
-                    </div>
-
-                    <div class="col-md-8">
-
-                        <form action="https://formspree.io/info@bitcoinoil.com" method="POST">
-                            <div class="container">
-                                <h2>Subscribe to our Newsletter</h2>
-                                <p>
-                                    Subscribe to the newsletter to hear about Bitcoin Oil updates and events.
-                                </p>
-                            </div>
-
-                            <div class="container">
-
-                                <input type="email" placeholder="Your Email address" name="mail" required>
-
-                            </div>
-
-
-                            <div class="container">
-
-                                <input type="submit" value="Subscribe">
-
-                            </div>
-                        </form>
-
-                    </div>
-
-                    <div class="col-md-2">
-                    </div>
-
-                </div>
-            </div>
-            <!-- END SECTION -->
-
-        </div>
-      </section>
-        <!-- container-body ends -->
-
-          <!--
-          <div id="val" class="cookies">
-          <div class="wrapper">
-          <div class="wrapped">
-
-          <p class="next-icon">
-          We use cookies to ensure you get the best experience on our website.
-          Please read our <a href="#privacy">privacy policy</a> to find out more.<br><br>
-          </p>
-
-          </div>
-          </div>
-          </div>
-          -->
-
-
-        <footer>
-
-          <section class="panel footer" data-section-name="footer">
-
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-2">
-                    </div>
-
-                    <div class="col-md-8">
-
-                            <div class="card">
-
-      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      <div class="icon-orange"><i class="far fa-envelope"></i></div>
-      <div class="next-icon-orange">Contact Us</div>
-      </button>
-                                </div>
-
-                                <div id="collapseOne" class="collapse">
-                                    <div class="card-body">
-
-                                      <form action="https://formspree.io/info@bitcoinoil.com" method="POST">
-
-                                              <p>
-                                              Do you have any questions about BitCoin Oil or our strategy? We would be happy to get in touch with you. Simply fill out the contact form with your request and our team will reply within 24 hours. Thank you.
-                                              </p>
-
-                                              <div class="container container-none">
-                                                <div class="row container-none">
-
-                                                <div class="col-md-12 container-none">
-
-                                                  <input type="text" placeholder="Name" name="name" required>
-
-                                                 </div>
-
-                                              </div>
-                                              </div>
-
-                                          <div class="container container-none">
-                                            <div class="row container-none">
-
-                                            <div class="col-md-6 container-none">
-
-                                              <input type="text" placeholder="Email" name="email" required>
-
-                                             </div>
-
-                                             <div class="col-md-6 container-none">
-
-                                               <input type="text" placeholder="Subject" name="subject" required>
-
-                                              </div>
-
-                                          </div>
-                                          </div>
-
-                                          <div class="container container-none">
-                                            <div class="row container-none">
-
-                                            <div class="col-md-12 container-none">
-
-                                              <textarea rows="4" cols="50" placeholder="Message">
-
-                                              </textarea>
-
-                                             </div>
-
-                                          </div>
-                                          </div>
-
-                                          <div class="container container-none">
-
-                                            <div class="row container-none">
-
-                                              <div class="col-md-12 container-none">
-                                              <a class="btn btn-primary btn-lg" href="#" role="button">
-                                              Send Message
-                                              </a>
-                                              </div>
-
-                                              <div class="col-md-12 container-none">
-
-                                              <a href="https://t.me/BitcoinOil" target="_blank" class="btn btn-primary btn-lg" role="button">
-                                              <i class="fab fa-telegram"></i>
-                                              Join Our Telegram
-                                              </a>
-                                              </div>
-
-                                          </div>
-                                          </div>
-
-
-                                      </form>
-
-                                        <br>
-                                        <br>
-
-                                        <strong>Media Contact:</strong>
-                                        <br> Attn: Media Relations
-                                        <br> Ms. Hannah Paddock (CMO)
-                                        <br> Email: <a href="mailto:media@bitcoinoil.com">media@bitcoinoil.com</a>
-                                        <br> Phone: +1-8777-BITCOINOIL
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <strong>Investor Contact:</strong>
-                                        <br> Attn: ICO Information
-                                        <br> Mr. Donald H. Goree (CEO)
-                                        <br> Email: <a href="mailto:info@bitcoinoil.com">info@bitcoinoil.com</a>
-                                        <br> Phone: +1-8777-BITCOINOIL
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <strong>Partnerships Contact:</strong>
-                                        <br> Attn: Development Partners
-                                        <br>Mr. Andrew Dubinsky (CTO)
-                                        <br> Email: <a href="mailto:partners@bitcoinoil.com">partners@bitcoinoil.com</a>
-                                        <br> Phone: +1-8777-BITCOINOIL
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <strong>Human Resources Contact:</strong>
-                                        <br> Attn: Hiring Campaign
-                                        <br> Mr. Don W. Orr (President)
-                                        <br> Email: <a href="mailto:change@bitcoinoil.com">change@bitcoinoil.com</a>
-                                        <br> Phone: +1-8777-BITCOINOIL
-                                        <br>
-                                        <br>
-                                        <br>
-                                        <strong>Online Contacts:</strong>
-                                        <br> - Website: <a href="http://www.BitcoinOil.com" target="_blank">www.BitcoinOil.com</a>
-                                        <br> - Telegram: <a href="https://t.me/BitcoinOil" target="_blank">https://t.me/BitcoinOil</a>
-                                        <br> - LinkedIn: <a href="http://www.linkedin.com/company/BitcoinOil" target="_blank">www.linkedin.com/company/BitcoinOil</a>
-                                        <br> - Twitter: <a href="https://twitter.com/BitcoinOilLLC" target="_blank">https://twitter.com/BitcoinOilLLC</a>
-                                        <br>
-
-                                    </div>
-                                </div>
-
-                            <div class="card">
-
-      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo">
-      <div class="icon-orange"><i class="fas fa-briefcase-medical"></i></div>
-      <div class="next-icon-orange">Risk Factors</div>
-      </button>
-                                </div>
-
-                                <div id="collapseTwo" class="collapse">
-                                    <div class="card-body">
-                                        Interested participants should refer to Bitcoin Oil's forthcoming White Paper and technical Yellow Paper for detailed information and for a comprehensive understanding of the potential risks as well as benefits and technical properties associated with Bitcoin Oil, of which a summary is contained herein. Bitcoin Oil is still at a very early stage of development. The company may have to make changes to the specifications of Bitcoin Oil for any number of legitimate reasons or may be unable to develop Bitcoin Oil in a way that realizes those specifications or any form of a functioning network. To the extent that Bitcoin Oil is successfully developed and the Bitcoin Oil hard fork is completed, Bitcoin Oil may not meet participants' expectations and may be different from those set out on this website. Furthermore, despite Bitcoin Oil's efforts to develop and complete the Bitcoin Oil hard fork and subsequently to develop and maintain Bitcoin Oil, it is still possible that Bitcoin Oil will experience malfunctions or otherwise fail to be adequately developed or maintained, which may negatively impact Bitcoin Oil. The development of Bitcoin Oil will require significant capital, expertise, time and effort. Bitcoin Oil may require substantially more funding or time in development than currently expected, which may result in suspension or cancellation of development of Bitcoin Oil. If Bitcoin Oil is not successful in its efforts to demonstrate to users the utility and value of Bitcoin Oil, there may not be any sufficient demand for Bitcoin Oil to proceed with the development of the Bitcoin Oil hard fork. As a result, or if the development of the Bitcoin Oil hard fork does not occur, participants may lose all of the funds provided in connection with the Bitcoin Oil sale. Due to the decentralized nature of Bitcoin Oil, there is no guarantee that the Bitcoin Oil hard fork (to the extent that it is developed) will be deployed as intended or at all. Bitcoin Oil might not come into existence, whether as part of the Bitcoin Oil hard fork or otherwise, if there is no deployment of the Bitcoin Oil hard fork. Bitcoin Oil may not have or may not be able to obtain the technical skills and expertise needed to successfully develop Bitcoin Oil and progress it to develop the Bitcoin Oil hard fork. There is a general scarcity of management, technical, scientific, research and marketing personnel with appropriate training to develop and maintain Bitcoin Oil.
-                                    </div>
-                                </div>
-
-
-                            <div class="card">
-
-      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree">
-      <div class="icon-orange"><i class="fas fa-file"></i></div>
-      <div class="next-icon-orange">Disclaimer</div>
-
-                                </div>
-
-                                <div id="collapseThree" class="collapse">
-
-                                    <div class="card-body">
-                                      This website shall not constitute an offer to sell or the solicitation of an offer to purchase any coin or right described herein, nor shall there be any sale of these coins or rights in any state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction.
-This website contains information about pending transactions, and there can be no assurance that any of these transactions will be completed in accordance with the terms described in this website or at all.
-This website contains information about a possible hard fork of the Bitcoin network. Neither the Bitcoin Oil generated through the hard fork nor the Bitcoin Oil generated thereafter by any other method will be registered under the Securities Act of 1933, as amended, or the securities laws of any other jurisdiction and may not be offered, sold, pledged or transferred within the United States or such other jurisdiction without registration or an applicable exemption from such registration requirements. Even though Bitcoin Oil intends to deliver and distribute certain initial Bitcoin Oil to the record holders of Bitcoin then existing on the Bitcoin network, such delivery and distribution may be restricted or prohibited by laws of the jurisdiction in which such holders reside or such distribution or delivery may result in Bitcoin Oil being required to register such Bitcoin Oil under the Exchange Act of 1934, as amended, or the securities law of any other applicable jurisdiction. Bitcoin Oil is in the process of assessing regulatory requirements for the delivery and distribution of such initial Bitcoin Oil to the then holders of Bitcoin and there can be no assurance whether Bitcoin Oil would be able to make such delivery or distribution to any such holder.
-This website contains statements that are forward-looking (such as when Bitcoin Oil describes what it "plans," "believes," "intends," "seeks," "aims," or "anticipates" will occur, what "will," "potentially," or "could" happen, and other similar statements or the negative of such terms or statements), which may not be correct, even though Bitcoin Oil believes that they are reasonable at the time of this website. Bitcoin Oil does not guarantee that such forward-looking statements will happen as described or that they will happen at all. Further information regarding risks and uncertainties that could cause actual results to differ materially from those in the forward-looking statement is included in the forthcoming White Paper. Bitcoin Oil undertakes no obligation to update any forward-looking statement to reflect events or circumstances after the date on which the statement is made.
-                                    </div>
-                                </div>
-
-
-                        <div class="card">
-
-  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour">
-  <div class="icon-orange"><i class="fas fa-shield-alt"></i></div>
-  <div id="privacy" class="next-icon-orange">Privacy Policy</div>
-  </button>
-                            </div>
-
-                            <div id="collapseFour" class="collapse">
-
-                                <div class="card-body">
-                                  Bitcoin Oil LLC (the “Company” or “we”) is committed to protecting and respecting your privacy.
-
-                                  This policy sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting www.bitcoinoil.com you are accepting and consenting to the practices described in this policy.
-
-                                  The data controller is Bitcoin Oil LLC, a company incorporated in Switzerland.
-
-                                  Information we collect from you we will collect and process the following data about you:
-
-                                  Information about you that you give us by filling in forms on our site www.bitcoinoil.com (“our site”) or by corresponding with us by phone, e-mail or otherwise. The information you give us may include your name, address, e-mail address, phone number, Bitcoin wallet public address, and a copy of your passport or identity ID.
-
-                                  Information relating to of each of your visits to our site including the Internet protocol (IP) address used to connect your computer to the Internet, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform), the full Uniform Resource Locators (URL), page response times, download errors, length of visits to certain pages and methods used to browse away from the page.
-
-                                  <br>
-                                  <br>
-                                  <strong>Uses of Your Information</strong><br>
-
-                                  We use information held about you in the following ways:
-
-                                  To carry out our obligations arising from any contracts entered into between you and us and to provide you with the information that you request from us including enrolling you into the Bitcoin Oil Network and updating you on the status of the BTCO Sale and subsequent offers of the coins offered by the Company to conduct the relevant KYC/AML/CFT checks.
-
-                                  <br>
-                                  <br>
-                                  <strong>Where we store your personal data</strong>
-                                  <br>
-                                  We engage commercial cloud storage providers to store the data that we collect from you. Therefore, your data may be stored in different jurisdictions and may be processed by staff operating within the various countries who work for us or for one of our contractors. By submitting your personal data, you agree to this transfer, storing or processing. We will take commercially reasonable steps to ensure that your data is treated securely and in accordance with this privacy policy and the relevant privacy laws.
-
-                                  Where we have given you (or where you have chosen) a password which enables you to access certain parts of our site, you are responsible for keeping this password confidential. We ask you not to share a password with anyone. Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk. Once we have received your information, we will take commercially reasonable efforts to prevent unauthorized access.
-
-
-                                                                    <br>
-                                                                    <br>
-                                  <strong>Your Rights</strong><br>
-                                  You have the right to access information held about you. Any access request will be subject to a fee of 0.1 Bitcoin to meet our costs in providing you with details of the information we hold about you.
-                                  <br>
-                                  <br>
-                                  <strong>Other Websites</strong><br>
-                                  Our site may, from time to time, contain links to and from the websites of our partner networks, advertisers and affiliates. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites.
-                                  <br>
-                                  <br>
-                                  <strong>Changes to Our Privacy Policy</strong><br>
-                                  Any changes we make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. Please check back frequently to see any updates or changes to our privacy policy.
-                                  <br>
-                                  <br>
-                                  <strong>Contact Information</strong><br>
-                                  Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to info@bitcoinoil.com.
-                                </div>
-                            </div>
-
-
-                    </div>
-                    <!-- end col-8-->
-
-                    <div class="col-md-2">
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- end row/container-->
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <p class="left-white-footer">
-                            Copyright © 2019 Bitcoin Oil LLC Switzerland. All Rights Reserved ® 2017-2019 Bitcoin Oil Inc. USA.
-                        </p>
-                    </div>
-
-                    <div class="col-md-6">
-
-                        <a href="https://www.myswitzerland.com/en-se/home.html" target="_blank">
-                        <img class="crypto" src="img/swiss-made.svg"/>
-                        </a>
-
-                        <a href="https://cryptovalley.swiss" target="_blank">
-                        <img class="crypto2" src="img/crypto.svg">
-                        </a>
-
-                        <div class="social-media">
-                            <div class="social-icon">
-                                <a class="social1" href="https://t.me/Bitcoinoil" target="_blank">
-                                </a>
-                            </div>
-
-                            <div class="social-icon">
-                                <a class="social2" href="https://www.facebook.com/Bitcoin-Oil-1146993918810029/" target="_blank">
-                                </a>
-                            </div>
-
-                            <div class="social-icon">
-                                <a class="social3" href="https://twitter.com/BitCoinOilLLC" target="_blank">
-                                </a>
-                            </div>
-
-                            <div class="social-icon">
-                                <a class="social4" href="https://www.linkedin.com/company/bitcoinoil/about/" target="_blank">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-        </footer>
-        </section>
-
-
-        <script>
-            $(function() {
-
-                $("#toggle").click(function() {
-                    $(".the-menu").css("display", "block");
-                    $("#toggle2").css("display", "block");
-                    $("#toggle").css("display", "none");
-                });
-
-            });
-        </script>
-
-        <script>
-            $(function() {
-
-                $("#toggle2").click(function() {
-                    $(".the-menu").css("display", "none");
-                    $("#toggle2").css("display", "none");
-                    $("#toggle").css("display", "block");
-                });
-
-            });
-        </script>
-
-        <script>
-        $(document).ready(function() {
-         // check where the shoppingcart-div is
-         var offset = $('.the-menu').offset();
-
-         $(window).scroll(function () {
-           var scrollTop = $(window).scrollTop(); // check the visible top of the browser
-
-           if (offset.top<scrollTop) $('.the-menu').addClass('fixed');
-           else $('.the-menu').removeClass('fixed');
-          });
-        });
-        </script>
-
-        <!--
-        <script>
-            $(function() {
-
-                $(".wallet-pill1").mouseover(function() {
-                    $(".wallet-icon1").css("visibility", "hidden");
-                    $(".left-white-wallet1").css("visibility", "hidden");
-                });
-
-            });
-
-            $(function() {
-
-                $(".wallet-pill2").mouseover(function() {
-                    $(".wallet-icon2").css("visibility", "hidden");
-                    $(".left-white-wallet2").css("visibility", "hidden");
-                });
-
-            });
-
-            $(function() {
-
-                $(".wallet-pill3").mouseover(function() {
-                    $(".wallet-icon3").css("visibility", "hidden");
-                    $(".left-white-wallet3").css("visibility", "hidden");
-                });
-
-            });
-
-            $(function() {
-
-                $(".wallet-pill4").mouseover(function() {
-                    $(".wallet-icon4").css("visibility", "hidden");
-                    $(".left-white-wallet4").css("visibility", "hidden");
-                });
-
-            });
-        </script>
-
-        <script>
-            $(function() {
-
-                $(".wallet-pill1").mouseover(function() {
-                    $('.left-white-wallet-title1').text('New Release\nComing Soon');
-                });
-
-                $(".wallet-pill2").mouseover(function() {
-                    $('.left-white-wallet-title2').text('New Release\nComing Soon');
-                });
-
-                $(".wallet-pill3").mouseover(function() {
-                    $('.left-white-wallet-title3').text('New Release\nComing Soon');
-                });
-
-                $(".wallet-pill4").mouseover(function() {
-                    $('.left-white-wallet-title4').text('New Release\nComing Soon');
-                });
-
-            });
-        </script>
-        -->
-
-        <script type="text/javascript">
-            function isValid() {
-                var password = document.getElementById('password').value;
-                if (password == "10312008+01032009") {
-                    document.getElementById("download-me").style.display = "block";
-                    document.getElementById("login-me").style.display = "none";
-                } else {
-                    alert('Wrong Password')
-                }
-            }
-        </script>
-
-<!--
-        <script>
-            $(function() {
-
-                $(".hover-pill1").mouseover(function() {
-                    $(".wallet-icon1").css("visibility", "hidden");
-                    $(".wallet-pill1").css("background-color", "rgba(255, 121, 0, 1)");
-                    $(".wallet-pill1").css("transition", "2s");
-                });
-
-            });
-            $(function() {
-
-                $(".hover-pill2").mouseover(function() {
-                    $(".wallet-icon2").css("visibility", "hidden");
-                    $(".wallet-pill2").css("background-color", "rgba(255, 121, 0, 1)");
-                    $(".wallet-pill2").css("transition", "2s");
-                });
-
-            });
-            $(function() {
-
-                $(".hover-pill3").mouseover(function() {
-                    $(".wallet-icon3").css("visibility", "hidden");
-                    $(".wallet-pill3").css("background-color", "rgba(255, 121, 0, 1)");
-                    $(".wallet-pill3").css("transition", "2s");
-                });
-
-            });
-            $(function() {
-
-                $(".hover-pill4").mouseover(function() {
-                    $(".wallet-icon4").css("visibility", "hidden");
-                    $(".wallet-pill4").css("background-color", "rgba(255, 121, 0, 1)");
-                    $(".wallet-pill4").css("transition", "2s");
-                });
-
-            });
-        </script>
-      -->
-
-        <script>
-            $(function() {
-
-                $(".wallet-pill1").mouseover(function() {
-                    $('.left-white-wallet1').text('New Release\n Coming Soon');
-                    $('.left-white-wallet1').css("left", "20%");
-                    $('.left-white-wallet1').css("position", "absolute");
-                    $('.left-white-wallet1').css("width", "40%");
-
-                    $('.wallet-icon1').fadeOut(1000);
-                });
-
-                $(".wallet-pill2").mouseover(function() {
-                    $('.left-white-wallet2').text('New Release\n Coming Soon');
-                    $('.left-white-wallet2').css("left", "20%");
-                    $('.left-white-wallet2').css("position", "absolute");
-                    $('.left-white-wallet2').css("width", "40%");
-
-                    $('.wallet-icon2').fadeOut(1000);
-                });
-
-                $(".wallet-pill3").mouseover(function() {
-                    $('.left-white-wallet3').text('New Release\n Coming Soon');
-                    $('.left-white-wallet3').css("left", "20%");
-                    $('.left-white-wallet3').css("position", "absolute");
-                    $('.left-white-wallet3').css("width", "40%");
-
-                    $('.wallet-icon3').fadeOut(1000);
-                });
-
-                $(".wallet-pill4").mouseover(function() {
-                    $('.left-white-wallet4').text('New Release\n Coming Soon');
-                    $('.left-white-wallet4').css("left", "20%");
-                    $('.left-white-wallet4').css("position", "absolute");
-                    $('.left-white-wallet4').css("width", "40%");
-
-                    $('.wallet-icon4').fadeOut(1000);
-                });
-
-            });
-        </script>
-
-<!-- active - deactive menu -->
-
-        <script>
-
-        $('a.nav-link').on('click', function() {
-
-          $('.the-menu').fadeOut(500);
-          $("#toggle2").css("display", "none");
-          $("#toggle").css("display", "block");
-        });
-
-        </script>
-
-        <!--
-        <script>
-
-        $(".orange").on('click', function() {
-            $(".cookies").css("display", "none");
-        });
-
-        </script>
-        -->
-
-
-
-        <!--
-        <script>
-        $(window).on('scroll', function() {
-        if ($(window).scrollTop() > 100) {
-        $('.the-menu').hide();
-        }
-        else {
-        $('.the-menu').show();
-        }
-        });
-        </script>
-        -->
-
-
-
-        <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500,500i,700');
+
+
+/*
+@font-face {
+  font-family: Helvetica-Neue-Black;
+  src: url(../font/helveticaneue-black-webfont.woff);
+}
+
+@font-face {
+  font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+  src: url(../font/helveticaneue-bold-webfont.woff);
+}
+
+@font-face {
+  font-family: Helvetica-Neue-Medium;
+  src: url(../font/helveticaneue-medium-webfont.woff);
+}
+
+@font-face {
+  font-family: Helvetica-Neue-Roman;
+  src: url(../font/helveticaneue-roman-webfont.woff);
+}
+
+@font-face {
+  font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+  src: url(../font/helveticaneue-light-webfont.woff);
+}
+
+@font-face {
+  font-family: Helvetica-Neue-Thin;
+  src: url(../font/helveticaneue-thin-webfont.woff);
+}
+*/
+
+html {
+-webkit-text-size-adjust: none;
+font-family: 'Helvetica', 'Arial', sans-serif !important;
+}
+
+body {
+width:100vw;
+max-width: 100%;
+background:#f8f8f8;
+color:rgba(105, 115, 123, 1);
+font-family: 'Helvetica', 'Arial', sans-serif !important;
+overflow-x: hidden !important;
+}
+
+*, p, h1, h2, h3, h4, h5, h6, h2.solution, .whatisit-btc-oil-small, .core-title, .whatisit-btc-oil {
+font-family: 'Helvetica', 'Arial', sans-serif !important;
+}
+
+section {
+height: 100% !important;
+}
+
+.container-body {
+position:relative;
+z-index:500;
+}
+
+.container-none {
+margin: 0 !important;
+padding: 0 !important;
+}
+
+
+.full-container {
+padding: 1em 0;
+width: 100%;
+overflow: hidden;
+top:0;
+background:white;
+position:fixed;
+z-index:600;
+}
+
+#resize {
+  background:#f8f8f8;
+  box-shadow: 5px 10px 18px #888888;
+  position: absolute;
+  transition: all 0.3s ease-out;
+  display: none;
+  position:fixed;
+  z-index:9999;
+}
+
+h1 {
+font-family: 'Ubuntu', sans-serif !important;
+font-weight: 500;
+font-style: italic;
+}
+
+p {
+font-size: 1em;
+overflow: hidden;
+}
+
+a {
+color:rgba(255, 121, 0, 1);
+text-decoration: none !important;
+}
+
+a:hover {
+color:rgba(255, 121, 0, .5);
+}
+
+strong {
+font-family: 'Helvetica', 'Arial', sans-serif !important;
+}
+
+textarea, select, input, button { outline: none; }
+
+img.logo {
+float: left;
+width: 200px;
+}
+
+img.swiss-made {
+float: left;
+width: 100px;
+margin-right: 24px;
+}
+
+img.crypto {
+float: left;
+width: 100px;
+margin-right: 24px;
+}
+
+img.crypto2 {
+float: left;
+width: 100px;
+margin-right: 24px;
+padding-top: 12px;
+}
+
+img.fork {
+float: left;
+width: 16em;
+}
+
+img.why {
+float: left;
+width: 14em;
+}
+
+img.need {
+float: left;
+width: 14em;
+padding:2em 0;
+}
+
+img.ico {
+float: left;
+width: 14em;
+padding:2em 0;
+}
+
+.padding-image {
+padding: 2em 0;
+}
+
+.caption-line {
+width: 7%;
+height: 1em;
+background: rgba(255, 121, 0, 1);
+margin-bottom: 2em;
+}
+
+.caption-line-centered {
+display: inline-block;
+width: 7%;
+height: 1em;
+background: rgba(255, 121, 0, 1);
+margin-bottom: 2em;
+}
+
+.caption-line-centered-white {
+display: inline-block;
+width: 7%;
+height: 1em;
+background: rgb(255, 255, 255);
+margin-bottom: 2em;
+}
+
+/* p and headings */
+
+h1.what-is {
+font-size: 50px;
+padding: 1em 0 .25em 0;
+color:rgba(105, 115, 123, 1);
+font-family: Helvetica-Neue-Medium;
+text-align: left;
+}
+
+h1.centered {
+font-size: 2em;
+padding: 1em 0 .25em 0;
+color:rgba(105, 115, 123, 1);
+font-family: Helvetica-Neue-Medium;
+text-align: center;
+}
+
+h1.centered-white {
+font-size: 50px;
+padding: 1em 0 .25em 0;
+color:rgba(255, 255, 255, 1);
+font-family: Helvetica-Neue-Medium;
+text-align: center;
+}
+
+h1.centered-left {
+font-size: 50px;
+padding: 1em 0 0 0;
+color:rgba(255, 255, 255, 1);
+font-family: Helvetica-Neue-Medium;
+text-align: left;
+}
+
+h2.centered-left {
+font-size: 30px;
+color:rgba(255, 255, 255, 1);
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align: left;
+}
+
+p.left {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align: left;
+font-size: 1em;
+}
+
+h2.solution {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+text-align: left;
+font-size: 1.75em;
+padding-top:.3em;
+margin-bottom: 1.25em;
+}
+
+h2.media {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+text-align: left;
+font-size: 1.5em;
+color:#fff;
+}
+
+p.quote {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align: left;
+font-size: 1em;
+}
+
+span.big-quote {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+text-align: left;
+float: left;
+font-size: 6em;
+padding: .1em;
+}
+
+p.center {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align: center;
+padding-bottom: 1em;
+}
+
+p.center-white {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align: center;
+color:#fff;
+padding-bottom: 1em;
+}
+
+p.left-white {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align:left;
+color:#fff;
+padding-bottom: 1em;
+}
+
+p.left-white-wallet-title,
+p.left-white-wallet-title1,
+p.left-white-wallet-title2,
+p.left-white-wallet-title3,
+p.left-white-wallet-title4 {
+font-family: Helvetica-Neue-Medium;
+text-align:left;
+color:#fff;
+font-size: 16px;
+visibility: visible;
+}
+
+p.left-white-wallet,
+p.left-white-wallet1,
+p.left-white-wallet2,
+p.left-white-wallet3,
+p.left-white-wallet4 {
+font-family: Helvetica-Neue-Roman;
+text-align:left;
+color:#fff;
+font-size: 14px;
+padding-top: 1.2em;
+visibility: visible;
+list-style: none;
+position:relative;
+}
+
+.wallet-icon,
+.wallet-icon1,
+.wallet-icon2,
+.wallet-icon3,
+.wallet-icon4 {
+float: left;
+visibility: visible;
+}
+
+i.fab.fa-windows, i.fab.fa-apple, i.fab.fa-linux, i.fab.fa-android {
+margin-left: 0 !important;
+font-size: 3em;
+margin-right: 16px !important;
+}
+
+i.fab.fa-windows, i.fab.fa-apple {
+margin-top: 16px;
+}
+
+i.fab.fa-android {
+font-size: 3.3em;
+}
+
+p.left-white-news {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align:left;
+color:rgba(105, 115, 123, 1);
+font-size:13px;
+line-height: 18px;
+}
+
+p.left-white-footer {
+font-size: 12px;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+text-align:left;
+color:#fff;
+margin: 0;
+padding: 1.5em 0;
+}
+
+p.left-white-header {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+font-size: 18px;
+text-align:left;
+color:#fff;
+padding: 2em 0;
+}
+
+.whatisit-btc-oil-small {
+float: left;
+text-align:left;
+font-size: 1.25em;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+.whatisit-btc-oil {
+float: left;
+text-align:left;
+font-size: 1.75em;
+
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+.whatisit-btc-oil-big {
+font-size: 1.25em;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+.core-title {
+padding: .5em 0;
+text-align:center;
+font-size: 1.25em;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+img.core {
+width: 60px;
+}
+
+img.wallet {
+width: 60px;
+margin-top: 10px;
+margin-right: 5px;
+}
+
+.core-icon {
+padding: .5em 0;
+text-align:center;
+}
+
+.core-box {
+padding:.5em;
+border:1px solid #bbb;
+background: #fff;
+width: 100%;
+height:16em;
+overflow: hidden;
+box-shadow: 5px 5px 5px #ddd
+}
+
+.next-icon {
+font-size:1.25em;
+padding-top: 12px;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+.core-exchange-icon {
+float: left;
+margin-right: .5em;
+}
+
+.core-box-exchanges {
+padding:1.5em;
+padding-left: .5em;
+border: 2px solid rgba(105, 115, 123, 1);
+margin: 4px 0;
+border-radius: 20px;
+width: 100%;
+}
+
+.core-box-exchanges2 {
+padding:1.5em;
+padding-left: .5em;
+border: 2px solid rgba(105, 115, 123, 1);
+margin: 4px 0;
+border-radius: 20px;
+width: 100%;
+}
+
+/* Why */
+
+.columns-two {
+column-count: 2;
+column-gap:2em;
+}
+
+h2.bonuses {
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+.margin-top-top {
+margin-top: 3em;
+}
+
+.margin-top-bottom {
+margin: 1em 0;
+}
+
+.margin-bottom {
+margin-bottom: 1em !important;
+}
+
+.margin-more {
+
+}
+
+.wrapper {
+text-align: center;
+}
+.wrapped {
+display: inline-block;
+}
+
+.numbers {
+width: 100%;
+overflow: hidden;
+margin: 1em 0;
+}
+
+.number {
+float: left;
+color:#fff;
+width: 2em;
+height: 2em;
+background-color:rgba(105, 115, 123, 1);
+border-radius: 50%;
+text-align: center;
+margin-right: 1em;
+padding-top: .3em;
+font-size: 1.5em;
+font-family: Helvetica-Neue-Roman;
+}
+
+.number-title {
+float: left;
+padding-top: .5em;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:200;
+font-size:1.25em;
+}
+
+span.bolder {
+font-family: Helvetica-Neue-Medium;
+}
+
+.full-container-dusk {
+margin: 0;
+width: 100%;
+overflow: hidden;
+background-color: rgb(212, 0, 114);
+}
+
+.full-container-dusk-top {
+margin: 0;
+width: 100%;
+overflow: hidden;
+background-color:rgba(76, 83, 89, 1);
+background-image: url(../img/main-image.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position:bottom;
+background-blend-mode:soft-light;
+padding: 6em 0;
+}
+
+.container-text-right {
+float:right;
+margin-right: 10%;
+width: 40%;
+}
+
+.full-container-stone {
+margin: 0;
+width: 100%;
+overflow: hidden;
+background-color:rgba(105, 115, 123, 1);
+}
+
+.full-container-sunset {
+margin: 0;
+width: 100%;
+overflow: hidden;
+background-color:rgba(255, 121, 0, 1);
+padding-bottom: 6em;
+}
+
+.full-container-transparent {
+margin: 0;
+width: 100%;
+overflow: hidden;
+background-color:transparent;
+}
+
+.full-container-prairie {
+margin: 0;
+width: 100%;
+overflow: hidden;
+background-color:#FFD000;
+}
+
+.full-container-margin {
+margin: 1em 0;
+}
+
+.margin-zero {
+margin:0 !important;
+padding: 0!important;
+}
+
+footer {
+background-color:#36424a;
+width: 100%;
+overflow: hidden;
+padding: 4em 0;
+}
+
+.cookies {
+margin: 5px;
+padding: 2em;
+padding-bottom: 1px;
+width: 30%;
+background: white;
+position:fixed;
+bottom: 0;
+right: 0;
+z-index: 99999999;
+display: block;
+}
+
+@media (max-width: 768px) {
+
+  .cookies {
+  margin: 0;
+  width: 100%;
+  }
+
+}
+
+.social-media {
+padding: 12px 0;
+}
+
+a.social-icon {
+display: block;
+}
+
+.social1 {
+margin: 0 6px;
+float: left;
+display: block;
+width: 24px;
+height: 24px;
+cursor: pointer;
+background-image: url(../img/telegram.png);
+background-size: cover;
+}
+
+.social2 {
+margin: 0 6px;
+float: left;
+display: block;
+width: 24px;
+height: 24px;
+cursor: pointer;
+background-image: url(../img/facebook.png);
+background-size: cover;
+}
+
+.social3 {
+margin: 0 6px;
+float: left;
+display: block;
+width: 24px;
+height: 24px;
+cursor: pointer;
+background-image: url(../img/twitter.png);
+background-size: cover;
+}
+
+.social4 {
+margin-left:6px;
+float: left;
+display: block;
+width: 24px;
+height: 24px;
+cursor: pointer;
+background-image: url(../img/linkedin.png);
+background-size: cover;
+}
+
+/* Timeline */
+
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color:#ddd;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.cont {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.cont::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -.8em;
+  background-color: white;
+  border: 4px solid rgba(255, 121, 0, 1);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right)
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+*/
+
+/* Add arrows to the right container (pointing left)
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+*/
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -13px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .cont {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .cont::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+/* Overwrite Bootstrap */
+
+.card {
+border: 0 !important;
+background: transparent !important;
+}
+
+.card-header {
+background: transparent !important;
+border: 0 !important;
+}
+
+.card-body {
+color:#fff !important;
+}
+
+.btn-link {
+color:#fff !important;
+font-size: 24px;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+margin-left: 0 !important;
+padding-left:  0 !important;
+text-decoration: none !important;
+}
+
+/* NAVBAR */
+
+.navbar {
+width: 100%;
+height: 6em;
+background:#fff !important;
+}
+
+ul.navbar {
+overflow-y: scroll;
+}
+
+.absolute-menu {
+position:fixed;
+top:1em;
+right: 1%;
+z-index: 9999999;
+width: 20%;
+background: #fff;
+}
+
+.the-menu {
+padding-top: .5em;
+display: none;
+position: fixed;
+top:6em;
+right: 0;
+z-index: 800;
+width: 20%;
+background: #fff;
+}
+
+.fixed {
+
+}
+
+.navbar-nav {
+background:#fff !important;
+width: 20% !important;
+position: absolute;
+right: 0;
+}
+
+a.nav-link {
+color:rgba(105, 115, 123, 1)!important;
+padding: .5em !important;
+padding-top: 0 !important;
+}
+
+a.nav-link:hover {
+color:rgba(255, 121, 0, 1) !important;
+}
+
+.navbar-toggler {
+border:none !important;
+}
+
+.navbar-toggler-icon {
+background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(105, 115, 123, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+.jumbotron {
+background: transparent;
+margin: 0;
+padding: 0;
+}
+
+.orange {
+cursor: pointer;
+width: 40%;
+margin: 0 30%;
+background-color: rgba(255, 121, 0, 1);
+border: none;
+font-family: Helvetica-Neue-Roman;
+font-size: .85em;
+border-radius: 20px;
+margin-bottom: 1em;
+padding:.5em 1em;
+color:#fff;
+font-size: 16px;
+}
+
+#val {
+width: 40%;
+background: yellow;
+padding:2em;
+color:#222;
+position: fixed;
+right: 0;
+bottom:0;
+z-index: 999999;
+}
+
+#CybotCookiebotDialogBodyButtonAccept {
+background-color: rgba(255, 121, 0, 1) !important;
+padding: .5em;
+border:0 !important;
+}
+
+.CybotCookiebotDialogBodyLink, #CybotCookiebotDialogPoweredbyLink  {
+display: none !important;
+}
+
+#result2 {display: none;}
+
+#yay, #ooh {display: none;}
+
+.btn-primary  {
+background-color: rgba(255, 121, 0, 1);
+border: none;
+font-family: Helvetica-Neue-Roman;
+font-size: .85em;
+border-radius: 20px;
+margin-bottom: 1em;
+}
+
+.btn-primary-bigger  {
+font-size: 1em;
+border-radius: 30px;
+width: 80%;
+margin:2em 10%;
+overflow: hidden;
+}
+
+.btn-primary-bigger.no-margin {
+margin:10px 0;
+}
+
+.btn-primary:hover  {
+background-color: rgba(255, 121, 0, .7);
+transition: 1s;
+}
+
+.media-pill {
+background-color:rgba(105, 115, 123, 0);
+border-radius: 20px;
+width: 100%;
+overflow: hidden;
+padding: 1em;
+margin-bottom: 1em;
+}
+
+.box-ss {
+overflow: hidden;
+}
+
+.photo-ss-small {
+width: 100%;
+height: 200px;
+background-image: url(../img/main-image.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.caption-ss-small {
+position: relative;
+top:0;
+margin: 0 auto;
+width: 100%;
+padding-top: .5em;
+padding-left: .5em;
+padding-bottom: .5em;
+background: rgba(255, 121, 0, 1);
+}
+
+.ss-featured-text {
+font-weight:300;
+font-size: 16px;
+color: #fff;
+text-align:left;
+}
+
+.title-ss {
+color:rgba(105, 115, 123, 1);
+font-size: 18px;
+padding: .5em 0;
+font-family: 'Helvetica', 'Arial', sans-serif !important; font-weight:500;
+}
+
+.wallet-pill, .wallet-pill1, .wallet-pill2, .wallet-pill3, .wallet-pill4 {
+cursor: pointer;
+background-color:rgba(105, 115, 123, 1);
+border-radius: 20px;
+width: 80%;
+height: 100px;
+overflow: hidden;
+padding: 1em;
+margin: 1em 10%;
+}
+
+/*
+.wallet-pill:hover,
+.wallet-pill1:hover,
+.wallet-pill2:hover,
+.wallet-pill3:hover,
+.wallet-pill4:hover {
+background-color:rgba(255, 121, 0, 1);
+transition: 1s;
+transform: rotateY(360deg);
+}
+*/
+
+form {
+margin: 0!important;
+padding: 0 !important;
+}
+
+input[type=button], input[type=submit] {
+margin: 20px 0;
+background-color: rgba(255, 121, 0, 1) !important;
+color: #fff !important;
+padding: .5em 1em !important;
+border: 0 !important;
+border-radius: 20px;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+transition: 1s;
+border: 0 !important;
+opacity: .5;
+}
+
+input[type=text], input[type=email] {
+width: 100%;
+overflow: hidden;
+padding: 1em;
+margin: 10px 0;
+color: #444;
+border:2px solid #ddd;
+border-radius: 30px;
+background:#ddd;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+transition: 1s;
+background: rgba(255, 121, 0, 1);
+color:#fff;
+}
+
+textarea {
+width: 100%;
+overflow: hidden;
+padding: 1em;
+margin: 10px 0;
+color: #444;
+border:2px solid #ddd;
+border-radius: 30px;
+background:#ddd;
+}
+
+textarea:focus  {
+transition: 1s;
+background: rgba(255, 121, 0, 1);
+color:#fff;
+}
+
+.icon-orange {
+width:2em;
+height:2em;
+margin-right: 1em;
+padding: .5em;
+padding-top: .25em;
+border-radius: 50%;
+float: left;
+background: rgba(255, 121, 0, 1);
+}
+
+.next-icon-orange {
+float: left;
+}
+
+.far.fa-envelope {
+font-size: 1em !important;
+}
+
+
+/* ROADMAP */
+
+.body {
+  background-color:#1D1D1D;
+  min-height:100vh;
+  margin:0;
+  font-family: 'Droid Sans', sans-serif;
+  &:before {
+    content: '';
+    position: fixed;
+    top:0px;
+    left:50%;
+    bottom:0px;
+    transform:translateX(-50%);
+    width:4px;
+    background-color:#fff;
+  }
+
+.entries {
+   width:calc(100% - 80px);
+   max-width:800px;
+   margin:auto;
+   position: relative;
+   left:-5px;
+   .entry {
+     width:calc(50% - 80px);
+     float:left;
+     padding:20px;
+     clear:both;
+     text-align:right;
+     &:not(:first-child) {
+       margin-top:-60px;
+     }
+     .title {
+       font-size:32px;
+       margin-bottom:12px;
+       position: relative;
+       color:#fff;
+       &:before {
+         content: '';
+         position: absolute;
+         width:8px;
+         height:8px;
+         border:4px solid #ffffff;
+         background-color:#1D1D1D;
+         border-radius:100%;
+         top:50%;
+         transform:translateY(-50%);
+         right:-73px;
+         z-index:1000;
+       }
+       &.big:before {
+         width:24px;
+         height:24px;
+         transform:translate(8px,-50%);
+       }
+     }
+     .body {
+       color:#aaa;
+       p {
+         line-height:1.4em;
+       }
+     }
+     &:nth-child(2n) {
+       text-align:left;
+       float:right;
+       .title {
+         &:before {
+           left:-63px;
+         }
+         &.big:before {
+           transform:translate(-8px,-50%);
+         }
+       }
+     }
+   }
+ }
+}
+
+/* BRAND */
+
+.container-social {
+position:absolute;
+right:10%;
+float:right;
+}
+
+/* MENU */
+
+.container-icons-menu {
+width: 100%;
+overflow: hidden;
+}
+
+.nav-item {
+list-style: none !important;
+}
+
+.icon-left {
+float: left;
+margin-right: .5em;
+margin-left: .5em;
+}
+
+img.icon {
+float: left;
+width: 25px;
+height: 25px;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+img.icon-big {
+margin-top: 3em;
+width: 6em;
+height: 6em;
+}
+
+.icon-title {
+float: left;
+border-radius: 50%;
+width: 4em;
+height: 4em;
+background: rgba(105, 115, 123, 1);
+margin-right:1em;
+}
+
+.icon-people {
+float: left;
+width: 10em;
+height: 10em;
+border-radius: 50%;
+margin-right:1em;
+background-color:rgba(105, 115, 123, 1);
+background-image: url(../img/img/ico1.png);
+background-size: cover;
+background-blend-mode:soft-light;
+}
+
+.icon-people2 {
+float: left;
+width: 10em;
+height: 10em;
+border-radius: 50%;
+margin-right:1em;
+background-color:rgba(105, 115, 123, 1);
+background-image: url(../img/ico2.png);
+background-size: cover;
+background-blend-mode:soft-light;
+}
+
+.fa-rocket, .fa-layer-group, .fa-spa, .fa-user-secret, .fa-building, .fa-dice-d20, .fa-dna, .fa-user-lock, .fa-fingerprint {
+display:inline-block;
+font-size: 1.5em;
+color:#fff;
+padding: .8em;
+}
+
+.fab.fa-telegram {
+margin: 0;
+margin-right: 5px;
+padding: 0;
+}
+
+.fa, .fab, .fal, .far, .fas {
+
+}
+
+.fa-bars {
+font-size:2em;
+}
+
+.far {
+font-size:2.2em !important;
+}
+
+
+@media (max-width: 480px) {
+  .icon-left {
+  margin-top: 7px;
+  }
+}
+
+
+nav #menu {
+  float:right;
+  right:0;
+  position: absolute;
+}
+
+nav #menu li {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-out;
+  margin-top: 2em;
+}
+
+nav #menu li a {
+  color:rgba(105, 115, 123, 1)
+}
+
+nav #menu li:hover {
+  opacity: .5;
+}
+
+#toggle {
+  margin-top: 1em;
+  right:1em;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition: all 0.3s ease-out;
+  position: absolute;
+  z-index: 9999;
+}
+
+#toggle2 {
+  margin-top: 1em;
+  right:1em;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition: all 0.3s ease-out;
+  display: none;
+  position: absolute;
+  z-index: 9999;
+}
+
+#toggle .span {
+  height: 6px;
+  background: rgba(105, 115, 123, 1);
+  border-radius: 6px;
+  margin: 6px auto;
+  backface-visibility: hidden;
+}
+
+#toggle.on #one {
+  transform: rotate(45deg) translateX(6px) translateY(6px);
+}
+
+#toggle.on #two {
+  opacity: 0;
+}
+
+#toggle.on #three {
+  transform: rotate(-45deg) translateX(10px) translateY(-12px);
+}
+
+#resize #menu {
+  /* transform: scale(0.8); */
+  cursor: pointer;
+  padding: 0;
+  display:block;
+  vertical-align: middle;
+  background:#fff;
+  width: 20%;
+  right: 0;
+  top:6em;
+  position: fixed;
+  z-index:9999;
+}
+
+#resize #menu li {
+  margin-left: 1em;
+  display: block;
+  text-align: left;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+#resize #menu li:hover {
+
+}
+
+#resize #menu li:hover a {
+}
+
+#resize #menu li a {
+  color:rgba(105, 115, 123, 1) !important;
+  font-size: 13px;
+  padding:5px;
+}
+
+#resize #menu li a:hover {
+  color:rgba(255, 121, 0, 1) !important;
+}
+
+@media (max-width: 3000px) {
+
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    z-index: 888;
+  }
+  nav #menu {
+    display: none;
+  }
+}
+
+
+/* MENU */
+
+/* Overwrite Font Awesome */
+
+.fab {
+font-size: 1.5em;
+margin: .25em .5em;
+color:rgba(255, 255, 255, 1);
+}
+
+.fab:hover {
+transition: 1s;
+color:rgba(255, 255, 255, .5) !important;
+}
+
+.container-social li.nav-item {
+float: left;
+background: rgba(255, 121, 0, 1);
+margin: 0 2px;
+}
+
+.navbar-brand {
+float: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:transparent;
+}
+
+
+
+@media (max-width: 960px) {
+
+  .flex-container {
+    margin-top: 1em;
+    margin-left: .75em;
+    margin-bottom: .5em;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:transparent;
+  }
+
+  .navbar-collapse {
+  position: absolute;
+  top:6em;
+  left: 0;
+  margin: 0 !important;
+  width: 100%;
+  background:#fff !important;
+  }
+
+  .navbar-toggler {
+  position: absolute;
+  right:1em;
+  }
+
+  .navbar-brand {
+  position: absolute;
+  left:1em;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+  #resize #menu {
+    width: 30%;
+  }
+
+  #resize #menu li a {
+  font-size: 12px;
+  padding: 0;
+  }
+
+}
+
+@media (max-width: 960px) {
+
+  .navbar-nav, .the-menu {
+  width: 30% !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .navbar-nav, .the-menu {
+  width: 40% !important;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .navbar-nav, .the-menu {
+  width: 60% !important;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .container-text-right {
+  float:right;
+  width: 60%;
+  }
+
+  p.left-white-header {
+  padding: 0;
+  font-size: 16px;
+  }
+
+  h1.centered-left {
+  font-size: 30px;
+  }
+
+  #resize #menu {
+  width: 70%;
+  }
+
+  #resize #menu {
+  top:4em;
+  }
+
+  #toggle, #toggle2 {
+  transform: scale(0.7);
+  }
+
+  #toggle {
+  margin: 0;
+  margin-top: .3em;
+  }
+
+  #toggle2 {
+  margin-top:.3em;
+  }
+
+  #resize #menu li a {
+  font-size: 12px;
+  }
+
+  .fab  {
+  margin-right:8px !important;
+  margin-left: 8px !important;
+  font-size: .8em;
+  }
+
+  img.logo {
+  width: 120px;
+  }
+
+  img.swiss-made {
+  width: 60px;
+  }
+
+  img.crypto, img.crypto2 {
+  padding-top: 6px;
+  width: 60px;
+  }
+
+  img.why {
+  float: left;
+  width: 12em;
+  }
+
+  .columns-two {
+  column-count: 1;
+  }
+
+  #donut1, #donut2, #donut3,
+  p.margin-top-bottom {
+  margin-left: 10%;
+  }
+
+  a.btn-primary-bigger {
+  width: 80%;
+  margin: 10px 10%;
+  }
+
+  .container-social {
+  right:20%;
+  }
+
+  .absolute-menu {
+  top:1.7em;
+  }
+
+  h1.centered {
+  font-size: 1.5em !important;
+  }
+
+  .social-media {
+  padding:5px;
+  }
+
+  .social1,
+  .social2,
+  .social3,
+  .social4 {
+  width: 18px;
+  height: 18px;
+  }
+
+
+}
